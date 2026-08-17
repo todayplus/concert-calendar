@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>지역별 콘서트 캘린더</title>
+<style>
+  :root{--bg:#0f1115;--card:#181b22;--line:#272b34;--txt:#e8eaf0;--sub:#9aa3b2;--pt:#6c8cff;--hot:#ff6b81}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--txt)}
+  header{padding:18px 20px;border-bottom:1px solid var(--line)}
+  h1{margin:0 0 12px;font-size:19px}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  select,input,button{background:var(--card);color:var(--txt);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:14px}
+  button{cursor:pointer}
+  button.on{background:var(--pt);border-color:var(--pt);color:#fff}
+  main{padding:16px 20px 60px;max-width:1200px;margin:0 auto}
+  .nav{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  .nav h2{font-size:17px;margin:0;min-width:130px;text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+  .dow{text-align:center;font-size:12px;color:var(--sub);padding:6px 0}
+  .cell{min-height:104px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px;overflow:hidden}
+  .cell.empty{background:transparent;border:none}
+  .cell.today{border-color:var(--pt)}
+  .dnum{font-size:12px;color:var(--sub);margin-bottom:4px}
+  .sun .dnum{color:var(--hot)}
+  .ev{font-size:11px;line-height:1.3;background:#222736;border-left:3px solid var(--pt);
+      border-radius:4px;padding:3px 5px;margin-bottom:3px;cursor:pointer;
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ev.open{border-left-color:var(--hot);background:#2c1f26}
+  .more{font-size:11px;color:var(--sub)}
+  dialog{background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:14px;
+    max-width:520px;width:92%;padding:0}
+  dialog::backdrop{background:rgba(0,0,0,.6)}
+  .dl{padding:18px}
+  .dl h3{margin:0 0 4px;font-size:17px}
+  .meta{font-size:13px;color:var(--sub);margin-bottom:12px}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+  td{padding:5px 0;border-bottom:1px solid var(--line)}
+  td:first-child{color:var(--sub);width:82px}
+  .links a{display:inline-block;margin:4px 6px 0 0;padding:6px 10px;background:var(--pt);
+    color:#fff;border-radius:6px;text-decoration:none;font-size:13px}
+  .foot{font-size:12px;color:var(--sub);margin-top:24px;line-height:1.6}
+  @media(max-width:640px){.cell{min-height:78px}.ev{font-size:10px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>지역별 콘서트 캘린더</h1>
+  <div class="bar">
+    <select id="area"><option value="">전체 지역</option></select>
+    <select id="genre"><option value="">전체 장르</option></select>
+    <input id="q" placeholder="공연명·아티스트 검색" style="min-width:180px">
+    <button id="mPerf" class="on">공연일 기준</button>
+    <button id="mOpen">예매오픈일 기준</button>
+  </div>
+</header>
+<main>
+  <div class="nav">
+    <button id="prev">‹</button><h2 id="title"></h2><button id="next">›</button>
+    <button id="today">오늘</button>
+    <span id="count" class="more"></span>
+  </div>
+  <div class="grid" id="dow"></div>
+  <div class="grid" id="cal"></div>
+  <p class="foot">
+    출처: 공연예술통합전산망(KOPIS) 공공 오픈API. 좌석 가격은 KOPIS 등록 기준이며
+    할인·수수료는 예매처와 다를 수 있습니다. 예매 오픈 일시는 직접 등록한 정보로,
+    최종 확인은 각 예매처 공지를 따라 주세요.
+    <span id="updated"></span>
+  </p>
+</main>
+
+<dialog id="modal"><div class="dl" id="dlbody"></div></dialog>
+
+<script>
+const KRW = n => n===0 ? '무료' : n.toLocaleString('ko-KR')+'원';
+const pad = n => String(n).padStart(2,'0');
+const key = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+let DATA=[], mode='perf', cur=new Date();
+
+fetch('data/concerts.json?v='+Date.now()).then(r=>r.json()).then(j=>{
+  DATA = j.items;
+  document.getElementById('updated').textContent =
+    ' 데이터 갱신: ' + new Date(j.updatedAt).toLocaleString('ko-KR');
+  fill('area',[...new Set(DATA.map(d=>d.area).filter(Boolean))].sort());
+  fill('genre',[...new Set(DATA.map(d=>d.genre).filter(Boolean))].sort());
+  render();
+});
+
+function fill(id,list){
+  const s=document.getElementById(id);
+  list.forEach(v=>s.insertAdjacentHTML('beforeend',`<option>${v}</option>`));
+}
+
+function filtered(){
+  const a=area.value, g=genre.value, t=q.value.trim().toLowerCase();
+  return DATA.filter(d=>
+    (!a||d.area===a) && (!g||d.genre===g) &&
+    (!t || (d.name+' '+d.cast).toLowerCase().includes(t)));
+}
+
+// 날짜별 이벤트 맵 생성
+function buildMap(){
+  const map={};
+  const push=(k,item)=>{(map[k]=map[k]||[]).push(item)};
+  for(const d of filtered()){
+    if(mode==='open'){
+      const o=d.ticketOpen; if(!o) continue;
+      if(o.pre)  push(o.pre.slice(0,10), {d,type:'선예매',time:o.pre.slice(11)});
+      if(o.open) push(o.open.slice(0,10),{d,type:'예매오픈',time:o.open.slice(11)});
+    }else{
+      const s=new Date(d.from), e=new Date(d.to);
+      const span=(e-s)/864e5;
+      if(span>60){ push(d.from,{d,type:'공연시작'}); continue; } // 오픈런 방지
+      for(let x=new Date(s); x<=e; x.setDate(x.getDate()+1)) push(key(x),{d,type:'공연'});
+    }
+  }
+  return map;
+}
+
+function render(){
+  const y=cur.getFullYear(), m=cur.getMonth();
+  title.textContent=`${y}년 ${m+1}월`;
+  dow.innerHTML=['일','월','화','수','목','금','토']
+    .map(x=>`<div class="dow">${x}</div>`).join('');
+  const map=buildMap(), first=new Date(y,m,1), last=new Date(y,m+1,0);
+  let html='';
+  for(let i=0;i<first.getDay();i++) html+='<div class="cell empty"></div>';
+  let total=0;
+  for(let day=1; day<=last.getDate(); day++){
+    const dt=new Date(y,m,day), k=key(dt), evs=map[k]||[];
+    total+=evs.length;
+    const cls=['cell', dt.getDay()===0?'sun':'', k===key(new Date())?'today':''].join(' ');
+    html+=`<div class="${cls}"><div class="dnum">${day}</div>`
+      + evs.slice(0,3).map(e=>
+          `<div class="ev ${mode==='open'?'open':''}" data-id="${e.d.id}">`
+          +`${e.time?e.time+' ':''}${e.d.name}</div>`).join('')
+      + (evs.length>3?`<div class="more">+${evs.length-3}건</div>`:'')
+      + '</div>';
+  }
+  cal.innerHTML=html;
+  count.textContent=`이번 달 ${total}건`;
+  cal.querySelectorAll('.ev').forEach(el=>
+    el.onclick=()=>openModal(DATA.find(d=>d.id===el.dataset.id)));
+}
+
+function openModal(d){
+  const p=d.price, tiers = p.free ? '전석 무료'
+    : p.tiers.length ? p.tiers.map(t=>`${t.grade} ${KRW(t.price)}`).join('<br>')
+    : (p.raw||'가격 정보 없음');
+  const o=d.ticketOpen;
+  dlbody.innerHTML=`
+    <h3>${d.name}</h3>
+    <div class="meta">${d.area} · ${d.venue} · ${d.genre}</div>
+    <table>
+      <tr><td>공연기간</td><td>${d.from} ~ ${d.to}</td></tr>
+      <tr><td>공연시간</td><td>${d.times||'-'}</td></tr>
+      <tr><td>좌석가격</td><td>${tiers}</td></tr>
+      <tr><td>예매오픈</td><td>${o
+        ? [o.pre&&`선예매 ${o.pre.replace('T',' ')}`,
+           o.open&&`일반 ${o.open.replace('T',' ')}`,
+           o.where,o.note].filter(Boolean).join('<br>')
+        : '<span style="color:#9aa3b2">미등록 — 예매처 공지 확인</span>'}</td></tr>
+      <tr><td>관람연령</td><td>${d.age||'-'}</td></tr>
+      <tr><td>출연</td><td>${d.cast||'-'}</td></tr>
+    </table>
+    <div class="links">${d.booking.map(b=>
+      `<a href="${b.url}" target="_blank" rel="noopener">${b.name} 예매</a>`).join('')
+      || '<span class="more">등록된 예매처 링크 없음</span>'}</div>
+    <p style="text-align:right;margin:14px 0 0">
+      <button onclick="modal.close()">닫기</button></p>`;
+  modal.showModal();
+}
+
+prev.onclick=()=>{cur.setMonth(cur.getMonth()-1);render()};
+next.onclick=()=>{cur.setMonth(cur.getMonth()+1);render()};
+document.getElementById('today').onclick=()=>{cur=new Date();render()};
+[area,genre].forEach(el=>el.onchange=render);
+q.oninput=render;
+mPerf.onclick=()=>{mode='perf';mPerf.classList.add('on');mOpen.classList.remove('on');render()};
+mOpen.onclick=()=>{mode='open';mOpen.classList.add('on');mPerf.classList.remove('on');render()};
+</script>
+</body>
+</html>
