@@ -1,186 +1,353 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>지역별 콘서트 캘린더</title>
 <style>
-  :root{--bg:#0f1115;--card:#181b22;--line:#272b34;--txt:#e8eaf0;--sub:#9aa3b2;--pt:#6c8cff;--hot:#ff6b81}
+  :root,[data-theme="dark"]{
+    --bg:#0f1115;--card:#181b22;--line:#272b34;--txt:#e8eaf0;--sub:#9aa3b2;
+    --pt:#6c8cff;--hot:#ff6b81;--ev:#222736;--evh:#2b3245;--sh:rgba(0,0,0,.5)}
+  [data-theme="light"]{
+    --bg:#ffffff;--card:#f7f8fa;--line:#e2e6ee;--txt:#1a1d23;--sub:#6b7280;
+    --pt:#3b5bdb;--hot:#e03131;--ev:#eaeefb;--evh:#dde4f8;--sh:rgba(0,0,0,.25)}
+  [data-theme="ivory"]{
+    --bg:#faf5ea;--card:#fffdf6;--line:#e9e0cd;--txt:#3b342a;--sub:#8b8071;
+    --pt:#a4703a;--hot:#c1554a;--ev:#f4ecda;--evh:#ece0c6;--sh:rgba(60,45,20,.28)}
   *{box-sizing:border-box}
-  body{margin:0;font-family:system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--txt)}
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font-family:system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    transition:background .2s,color .2s}
   header{padding:18px 20px;border-bottom:1px solid var(--line)}
-  h1{margin:0 0 12px;font-size:19px}
+  h1{margin:0 0 12px;font-size:19px;cursor:pointer;display:inline-block;user-select:none}
+  h1:hover{color:var(--pt)}
+  h1 span{font-size:11px;color:var(--sub);font-weight:400;margin-left:8px}
   .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .sp{flex:1}
   select,input,button{background:var(--card);color:var(--txt);border:1px solid var(--line);
-    border-radius:8px;padding:8px 10px;font-size:14px}
+    border-radius:8px;padding:8px 10px;font-size:14px;font-family:inherit}
   button{cursor:pointer}
   button.on{background:var(--pt);border-color:var(--pt);color:#fff}
-  main{padding:16px 20px 60px;max-width:1200px;margin:0 auto}
-  .nav{display:flex;align-items:center;gap:12px;margin-bottom:10px}
-  .nav h2{font-size:17px;margin:0;min-width:130px;text-align:center}
+  .seg{display:flex;gap:0}
+  .seg button{border-radius:0;border-right:none}
+  .seg button:first-child{border-radius:8px 0 0 8px}
+  .seg button:last-child{border-radius:0 8px 8px 0;border-right:1px solid var(--line)}
+  .theme button{width:26px;height:26px;padding:0;border-radius:50%}
+  .theme button.on{outline:2px solid var(--pt);outline-offset:2px;background:initial}
+  .t-dark{background:#0f1115}.t-light{background:#fff}.t-ivory{background:#f0e3c8}
+  main{padding:16px 20px 60px;max-width:1240px;margin:0 auto}
+  .nav{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+  .nav h2{font-size:17px;margin:0;min-width:190px;text-align:center}
   .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
   .dow{text-align:center;font-size:12px;color:var(--sub);padding:6px 0}
-  .cell{min-height:104px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px;overflow:hidden}
-  .cell.empty{background:transparent;border:none}
-  .cell.today{border-color:var(--pt)}
-  .dnum{font-size:12px;color:var(--sub);margin-bottom:4px}
+  .cell{min-height:108px;background:var(--card);border:1px solid var(--line);
+    border-radius:10px;padding:6px;overflow:hidden;cursor:pointer}
+  .cell:hover{border-color:var(--pt)}
+  .cell.empty{background:transparent;border:none;cursor:default}
+  .cell.today{border-color:var(--pt);box-shadow:0 0 0 1px var(--pt) inset}
+  .dnum{font-size:12px;color:var(--sub);margin-bottom:4px;font-weight:600}
   .sun .dnum{color:var(--hot)}
-  .ev{font-size:11px;line-height:1.3;background:#222736;border-left:3px solid var(--pt);
-      border-radius:4px;padding:3px 5px;margin-bottom:3px;cursor:pointer;
-      white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .ev.open{border-left-color:var(--hot);background:#2c1f26}
+  .ev{font-size:11px;line-height:1.3;background:var(--ev);border-left:3px solid var(--pt);
+    border-radius:4px;padding:3px 5px;margin-bottom:3px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ev:hover{background:var(--evh)}
+  .ev.open{border-left-color:var(--hot)}
   .more{font-size:11px;color:var(--sub)}
-  dialog{background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:14px;
-    max-width:520px;width:92%;padding:0}
-  dialog::backdrop{background:rgba(0,0,0,.6)}
-  .dl{padding:18px}
+  .more.link{color:var(--pt);font-weight:600}
+  /* 주간 뷰 */
+  .wk{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+  .wday{background:var(--card);border:1px solid var(--line);border-radius:10px;
+    display:flex;flex-direction:column;min-height:380px}
+  .wday.today{border-color:var(--pt)}
+  .whead{padding:8px;border-bottom:1px solid var(--line);font-size:12px;
+    display:flex;justify-content:space-between;cursor:pointer}
+  .whead b{font-size:15px}
+  .wbody{padding:6px;overflow-y:auto;flex:1;max-height:420px}
+  .wev{font-size:11.5px;background:var(--ev);border-left:3px solid var(--pt);
+    border-radius:4px;padding:5px 6px;margin-bottom:4px;cursor:pointer;line-height:1.35}
+  .wev:hover{background:var(--evh)}
+  .wev b{display:block;font-weight:600;margin-bottom:2px}
+  .wev i{font-style:normal;color:var(--sub);font-size:10.5px}
+  /* 모달 */
+  dialog{background:var(--card);color:var(--txt);border:1px solid var(--line);
+    border-radius:14px;max-width:560px;width:92%;padding:0;box-shadow:0 8px 40px var(--sh)}
+  dialog::backdrop{background:rgba(0,0,0,.55)}
+  .dl{padding:18px;max-height:78vh;overflow-y:auto}
   .dl h3{margin:0 0 4px;font-size:17px}
   .meta{font-size:13px;color:var(--sub);margin-bottom:12px}
   table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
-  td{padding:5px 0;border-bottom:1px solid var(--line)}
-  td:first-child{color:var(--sub);width:82px}
+  td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  td:first-child{color:var(--sub);width:86px}
+  .row{display:flex;gap:10px;align-items:center;padding:9px 8px;border-radius:8px;
+    cursor:pointer;border-bottom:1px solid var(--line)}
+  .row:hover{background:var(--ev)}
+  .row .n{flex:1;min-width:0}
+  .row .n b{display:block;font-size:13.5px;font-weight:600;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .n span{font-size:11.5px;color:var(--sub)}
+  .row .p{font-size:12px;color:var(--pt);white-space:nowrap;font-weight:600}
   .links a{display:inline-block;margin:4px 6px 0 0;padding:6px 10px;background:var(--pt);
     color:#fff;border-radius:6px;text-decoration:none;font-size:13px}
   .foot{font-size:12px;color:var(--sub);margin-top:24px;line-height:1.6}
-  @media(max-width:640px){.cell{min-height:78px}.ev{font-size:10px}}
+  @media(max-width:700px){
+    .wk{grid-template-columns:1fr}
+    .wday{min-height:0}
+    .wbody{max-height:none}
+    .cell{min-height:80px}
+    .ev{font-size:10px}
+    .nav h2{min-width:130px;font-size:15px}
+  }
 </style>
 </head>
 <body>
 <header>
-  <h1>지역별 콘서트 캘린더</h1>
+  <h1 id="reset">지역별 콘서트 캘린더<span>클릭 시 초기화</span></h1>
   <div class="bar">
     <select id="area"><option value="">전체 지역</option></select>
     <select id="genre"><option value="">전체 장르</option></select>
-    <input id="q" placeholder="공연명·아티스트 검색" style="min-width:180px">
-    <button id="mPerf" class="on">공연일 기준</button>
-    <button id="mOpen">예매오픈일 기준</button>
+    <input id="q" placeholder="공연명·아티스트 검색" style="min-width:170px">
+    <div class="seg">
+      <button id="mPerf" class="on">공연일</button>
+      <button id="mOpen">예매오픈일</button>
+    </div>
+    <div class="seg">
+      <button id="vMonth" class="on">월간</button>
+      <button id="vWeek">주간</button>
+    </div>
+    <div class="sp"></div>
+    <div class="seg theme">
+      <button class="t-dark"  data-t="dark"  title="다크"></button>
+      <button class="t-light" data-t="light" title="화이트"></button>
+      <button class="t-ivory" data-t="ivory" title="아이보리"></button>
+    </div>
   </div>
 </header>
 <main>
   <div class="nav">
     <button id="prev">‹</button><h2 id="title"></h2><button id="next">›</button>
-    <button id="today">오늘</button>
+    <button id="todayBtn">오늘</button>
     <span id="count" class="more"></span>
   </div>
-  <div class="grid" id="dow"></div>
-  <div class="grid" id="cal"></div>
+  <div id="monthWrap">
+    <div class="grid" id="dow"></div>
+    <div class="grid" id="cal"></div>
+  </div>
+  <div class="wk" id="week" style="display:none"></div>
   <p class="foot">
     출처: 공연예술통합전산망(KOPIS) 공공 오픈API. 좌석 가격은 KOPIS 등록 기준이며
     할인·수수료는 예매처와 다를 수 있습니다. 예매 오픈 일시는 직접 등록한 정보로,
-    최종 확인은 각 예매처 공지를 따라 주세요.
-    <span id="updated"></span>
+    최종 확인은 각 예매처 공지를 따라 주세요.<span id="updated"></span>
   </p>
 </main>
 
+<dialog id="dayModal"><div class="dl" id="dayBody"></div></dialog>
 <dialog id="modal"><div class="dl" id="dlbody"></div></dialog>
 
 <script>
-const KRW = n => n===0 ? '무료' : n.toLocaleString('ko-KR')+'원';
-const pad = n => String(n).padStart(2,'0');
-const key = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-let DATA=[], mode='perf', cur=new Date();
+const KRW = n => n === 0 ? '무료' : n.toLocaleString('ko-KR') + '원';
+const pad = n => String(n).padStart(2, '0');
+const key = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const DOW = ['일','월','화','수','목','금','토'];
+let DATA = [], mode = 'perf', view = 'month', cur = new Date(), lastDay = null;
 
-fetch('data/concerts.json?v='+Date.now()).then(r=>r.json()).then(j=>{
-  DATA = j.items;
-  document.getElementById('updated').textContent =
-    ' 데이터 갱신: ' + new Date(j.updatedAt).toLocaleString('ko-KR');
-  fill('area',[...new Set(DATA.map(d=>d.area).filter(Boolean))].sort());
-  fill('genre',[...new Set(DATA.map(d=>d.genre).filter(Boolean))].sort());
-  render();
-});
-
-function fill(id,list){
-  const s=document.getElementById(id);
-  list.forEach(v=>s.insertAdjacentHTML('beforeend',`<option>${v}</option>`));
+/* ---------- 테마 ---------- */
+function setTheme(t){
+  document.documentElement.dataset.theme = t;
+  localStorage.setItem('cc-theme', t);
+  document.querySelectorAll('.theme button')
+    .forEach(b => b.classList.toggle('on', b.dataset.t === t));
 }
+document.querySelectorAll('.theme button')
+  .forEach(b => b.onclick = () => setTheme(b.dataset.t));
+setTheme(localStorage.getItem('cc-theme') || 'dark');
 
+/* ---------- 데이터 ---------- */
+render();
+fetch('data/concerts.json?v=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error(`concerts.json ${r.status}`); return r.json(); })
+  .then(j => {
+    DATA = j.items || [];
+    updated.textContent = ' 데이터 갱신: ' + new Date(j.updatedAt).toLocaleString('ko-KR');
+    fill('area',  [...new Set(DATA.map(d => d.area).filter(Boolean))].sort());
+    fill('genre', [...new Set(DATA.map(d => d.genre).filter(Boolean))].sort());
+    render();
+  })
+  .catch(err => {
+    count.innerHTML = `<span style="color:var(--hot)">데이터를 불러올 수 없습니다 (${err.message}).</span>`;
+    console.error(err);
+  });
+
+function fill(id, list){
+  const s = document.getElementById(id);
+  list.forEach(v => s.insertAdjacentHTML('beforeend', `<option>${v}</option>`));
+}
 function filtered(){
-  const a=area.value, g=genre.value, t=q.value.trim().toLowerCase();
-  return DATA.filter(d=>
-    (!a||d.area===a) && (!g||d.genre===g) &&
-    (!t || (d.name+' '+d.cast).toLowerCase().includes(t)));
+  const a = area.value, g = genre.value, t = q.value.trim().toLowerCase();
+  return DATA.filter(d =>
+    (!a || d.area === a) && (!g || d.genre === g) &&
+    (!t || (d.name + ' ' + d.cast).toLowerCase().includes(t)));
 }
-
-// 날짜별 이벤트 맵 생성
+function priceText(d){
+  const p = d.price;
+  if (!p) return '';
+  if (p.free) return '무료';
+  if (p.min == null) return '';
+  return p.min === p.max ? KRW(p.min) : `${KRW(p.min)}~`;
+}
 function buildMap(){
-  const map={};
-  const push=(k,item)=>{(map[k]=map[k]||[]).push(item)};
-  for(const d of filtered()){
-    if(mode==='open'){
-      const o=d.ticketOpen; if(!o) continue;
-      if(o.pre)  push(o.pre.slice(0,10), {d,type:'선예매',time:o.pre.slice(11)});
-      if(o.open) push(o.open.slice(0,10),{d,type:'예매오픈',time:o.open.slice(11)});
-    }else{
-      const s=new Date(d.from), e=new Date(d.to);
-      const span=(e-s)/864e5;
-      if(span>60){ push(d.from,{d,type:'공연시작'}); continue; } // 오픈런 방지
-      for(let x=new Date(s); x<=e; x.setDate(x.getDate()+1)) push(key(x),{d,type:'공연'});
+  const map = {}, push = (k, v) => (map[k] = map[k] || []).push(v);
+  for (const d of filtered()){
+    if (mode === 'open'){
+      const o = d.ticketOpen; if (!o) continue;
+      if (o.pre)  push(o.pre.slice(0,10),  {d, type:'선예매',  time:o.pre.slice(11)});
+      if (o.open) push(o.open.slice(0,10), {d, type:'예매오픈', time:o.open.slice(11)});
+    } else {
+      const s = new Date(d.from), e = new Date(d.to);
+      if ((e - s) / 864e5 > 60){ push(d.from, {d, type:'공연시작'}); continue; }
+      for (let x = new Date(s); x <= e; x.setDate(x.getDate() + 1)) push(key(x), {d, type:'공연'});
     }
   }
+  Object.values(map).forEach(list =>
+    list.sort((a,b) => (a.time||'').localeCompare(b.time||'') || a.d.name.localeCompare(b.d.name)));
   return map;
 }
 
-function render(){
-  const y=cur.getFullYear(), m=cur.getMonth();
-  title.textContent=`${y}년 ${m+1}월`;
-  dow.innerHTML=['일','월','화','수','목','금','토']
-    .map(x=>`<div class="dow">${x}</div>`).join('');
-  const map=buildMap(), first=new Date(y,m,1), last=new Date(y,m+1,0);
-  let html='';
-  for(let i=0;i<first.getDay();i++) html+='<div class="cell empty"></div>';
-  let total=0;
-  for(let day=1; day<=last.getDate(); day++){
-    const dt=new Date(y,m,day), k=key(dt), evs=map[k]||[];
-    total+=evs.length;
-    const cls=['cell', dt.getDay()===0?'sun':'', k===key(new Date())?'today':''].join(' ');
-    html+=`<div class="${cls}"><div class="dnum">${day}</div>`
-      + evs.slice(0,3).map(e=>
+/* ---------- 렌더 ---------- */
+function render(){ view === 'month' ? renderMonth() : renderWeek(); }
+
+function renderMonth(){
+  monthWrap.style.display = ''; week.style.display = 'none';
+  const y = cur.getFullYear(), m = cur.getMonth();
+  title.textContent = `${y}년 ${m + 1}월`;
+  dow.innerHTML = DOW.map(x => `<div class="dow">${x}</div>`).join('');
+  const map = buildMap(), first = new Date(y, m, 1), last = new Date(y, m + 1, 0);
+  let html = '', total = 0;
+  for (let i = 0; i < first.getDay(); i++) html += '<div class="cell empty"></div>';
+  for (let day = 1; day <= last.getDate(); day++){
+    const dt = new Date(y, m, day), k = key(dt), evs = map[k] || [];
+    total += evs.length;
+    const cls = ['cell', dt.getDay() === 0 ? 'sun' : '', k === key(new Date()) ? 'today' : ''].join(' ');
+    html += `<div class="${cls}" data-day="${k}"><div class="dnum">${day}</div>`
+      + evs.slice(0,3).map(e =>
           `<div class="ev ${mode==='open'?'open':''}" data-id="${e.d.id}">`
-          +`${e.time?e.time+' ':''}${e.d.name}</div>`).join('')
-      + (evs.length>3?`<div class="more">+${evs.length-3}건</div>`:'')
+          + `${e.time ? e.time + ' ' : ''}${e.d.name}</div>`).join('')
+      + (evs.length > 3 ? `<div class="more link">+${evs.length - 3}건 전체보기</div>` : '')
       + '</div>';
   }
-  cal.innerHTML=html;
-  count.textContent=`이번 달 ${total}건`;
-  cal.querySelectorAll('.ev').forEach(el=>
-    el.onclick=()=>openModal(DATA.find(d=>d.id===el.dataset.id)));
+  cal.innerHTML = html;
+  count.textContent = `이번 달 ${total}건 · 날짜를 클릭하면 그 날 전체 목록`;
+  bind(cal);
 }
 
-function openModal(d){
-  const p=d.price, tiers = p.free ? '전석 무료'
-    : p.tiers.length ? p.tiers.map(t=>`${t.grade} ${KRW(t.price)}`).join('<br>')
-    : (p.raw||'가격 정보 없음');
-  const o=d.ticketOpen;
-  dlbody.innerHTML=`
-    <h3>${d.name}</h3>
+function renderWeek(){
+  monthWrap.style.display = 'none'; week.style.display = '';
+  const s = new Date(cur); s.setDate(s.getDate() - s.getDay());
+  const e = new Date(s); e.setDate(e.getDate() + 6);
+  title.textContent = `${s.getMonth()+1}.${s.getDate()} ~ ${e.getMonth()+1}.${e.getDate()}`;
+  const map = buildMap();
+  let html = '', total = 0;
+  for (let i = 0; i < 7; i++){
+    const dt = new Date(s); dt.setDate(s.getDate() + i);
+    const k = key(dt), evs = map[k] || [];
+    total += evs.length;
+    html += `<div class="wday ${k === key(new Date()) ? 'today' : ''}">
+      <div class="whead" data-day="${k}">
+        <span style="${dt.getDay()===0?'color:var(--hot)':''}">${DOW[i]}</span>
+        <b>${dt.getMonth()+1}.${dt.getDate()}</b>
+        <span class="more">${evs.length}건</span>
+      </div>
+      <div class="wbody">${
+        evs.length ? evs.map(ev => `<div class="wev" data-id="${ev.d.id}">
+            <b>${ev.time ? ev.time + ' ' : ''}${ev.d.name}</b>
+            <i>${ev.d.venue}${priceText(ev.d) ? ' · ' + priceText(ev.d) : ''}</i>
+          </div>`).join('')
+        : '<div class="more" style="padding:6px">일정 없음</div>'}</div></div>`;
+  }
+  week.innerHTML = html;
+  count.textContent = `이번 주 ${total}건`;
+  bind(week);
+}
+
+function bind(root){
+  root.querySelectorAll('[data-id]').forEach(el =>
+    el.onclick = ev => { ev.stopPropagation(); openDetail(DATA.find(d => d.id === el.dataset.id)); });
+  root.querySelectorAll('[data-day]').forEach(el =>
+    el.onclick = () => openDay(el.dataset.day));
+}
+
+/* ---------- 날짜별 전체 목록 ---------- */
+function openDay(k){
+  lastDay = k;
+  const evs = buildMap()[k] || [];
+  const [y,m,d] = k.split('-').map(Number);
+  const w = DOW[new Date(y, m-1, d).getDay()];
+  dayBody.innerHTML = `<h3>${y}년 ${m}월 ${d}일 (${w})</h3>
+    <div class="meta">${mode === 'open' ? '예매 오픈' : '공연'} ${evs.length}건</div>
+    ${evs.length ? evs.map(e => `<div class="row" data-id="${e.d.id}">
+        <div class="n"><b>${e.time ? e.time + ' · ' : ''}${e.d.name}</b>
+        <span>${e.d.area} · ${e.d.venue} · ${e.d.genre}</span></div>
+        <div class="p">${priceText(e.d)}</div></div>`).join('')
+      : '<p class="more">이 날짜에는 일정이 없습니다.</p>'}
+    <p style="text-align:right;margin:14px 0 0"><button onclick="dayModal.close()">닫기</button></p>`;
+  dayBody.querySelectorAll('[data-id]').forEach(el =>
+    el.onclick = () => { dayModal.close(); openDetail(DATA.find(x => x.id === el.dataset.id), true); });
+  dayModal.showModal();
+}
+
+function openDetail(d, fromDay){
+  if (!d) return;
+  const p = d.price || {}, o = d.ticketOpen;
+  const tiers = p.free ? '전석 무료'
+    : (p.tiers && p.tiers.length) ? p.tiers.map(t => `${t.grade} ${KRW(t.price)}`).join('<br>')
+    : (p.raw || '가격 정보 없음');
+  dlbody.innerHTML = `<h3>${d.name}</h3>
     <div class="meta">${d.area} · ${d.venue} · ${d.genre}</div>
     <table>
       <tr><td>공연기간</td><td>${d.from} ~ ${d.to}</td></tr>
-      <tr><td>공연시간</td><td>${d.times||'-'}</td></tr>
+      <tr><td>공연시간</td><td>${d.times || '-'}</td></tr>
       <tr><td>좌석가격</td><td>${tiers}</td></tr>
       <tr><td>예매오픈</td><td>${o
-        ? [o.pre&&`선예매 ${o.pre.replace('T',' ')}`,
-           o.open&&`일반 ${o.open.replace('T',' ')}`,
-           o.where,o.note].filter(Boolean).join('<br>')
-        : '<span style="color:#9aa3b2">미등록 — 예매처 공지 확인</span>'}</td></tr>
-      <tr><td>관람연령</td><td>${d.age||'-'}</td></tr>
-      <tr><td>출연</td><td>${d.cast||'-'}</td></tr>
+        ? [o.pre && `선예매 ${o.pre.replace('T',' ')}`,
+           o.open && `일반 ${o.open.replace('T',' ')}`, o.where, o.note]
+          .filter(Boolean).join('<br>')
+        : '<span class="more">미등록 — 예매처 공지 확인</span>'}</td></tr>
+      <tr><td>관람연령</td><td>${d.age || '-'}</td></tr>
+      <tr><td>출연</td><td>${d.cast || '-'}</td></tr>
     </table>
-    <div class="links">${d.booking.map(b=>
+    <div class="links">${(d.booking || []).map(b =>
       `<a href="${b.url}" target="_blank" rel="noopener">${b.name} 예매</a>`).join('')
       || '<span class="more">등록된 예매처 링크 없음</span>'}</div>
     <p style="text-align:right;margin:14px 0 0">
+      ${fromDay ? '<button id="back">← 목록</button> ' : ''}
       <button onclick="modal.close()">닫기</button></p>`;
   modal.showModal();
+  const b = document.getElementById('back');
+  if (b) b.onclick = () => { modal.close(); openDay(lastDay); };
 }
 
-prev.onclick=()=>{cur.setMonth(cur.getMonth()-1);render()};
-next.onclick=()=>{cur.setMonth(cur.getMonth()+1);render()};
-document.getElementById('today').onclick=()=>{cur=new Date();render()};
-[area,genre].forEach(el=>el.onchange=render);
-q.oninput=render;
-mPerf.onclick=()=>{mode='perf';mPerf.classList.add('on');mOpen.classList.remove('on');render()};
-mOpen.onclick=()=>{mode='open';mOpen.classList.add('on');mPerf.classList.remove('on');render()};
+/* ---------- 컨트롤 ---------- */
+const step = n => {
+  view === 'month' ? cur.setMonth(cur.getMonth() + n) : cur.setDate(cur.getDate() + 7 * n);
+  render();
+};
+prev.onclick = () => step(-1);
+next.onclick = () => step(1);
+todayBtn.onclick = () => { cur = new Date(); render(); };
+[area, genre].forEach(el => el.onchange = render);
+q.oninput = render;
+const seg = (on, off, fn) => { on.classList.add('on'); off.classList.remove('on'); fn(); render(); };
+mPerf.onclick  = () => seg(mPerf, mOpen, () => mode = 'perf');
+mOpen.onclick  = () => seg(mOpen, mPerf, () => mode = 'open');
+vMonth.onclick = () => seg(vMonth, vWeek, () => view = 'month');
+vWeek.onclick  = () => seg(vWeek, vMonth, () => view = 'week');
+
+document.getElementById('reset').onclick = () => {   // 제목 클릭 → 초기화
+  area.value = ''; genre.value = ''; q.value = '';
+  mode = 'perf'; view = 'month'; cur = new Date();
+  mPerf.classList.add('on'); mOpen.classList.remove('on');
+  vMonth.classList.add('on'); vWeek.classList.remove('on');
+  render();
+};
 </script>
 </body>
 </html>
