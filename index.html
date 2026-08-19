@@ -6,14 +6,14 @@
 <title>지역별 콘서트 캘린더</title>
 <style>
   :root,[data-theme="dark"]{
-    --bg:#0f1115;--card:#181b22;--line:#272b34;--txt:#e8eaf0;--sub:#9aa3b2;
-    --pt:#6c8cff;--hot:#ff6b81;--ev:#222736;--evh:#2b3245;--sh:rgba(0,0,0,.5)}
-  [data-theme="light"]{
-    --bg:#ffffff;--card:#f7f8fa;--line:#e2e6ee;--txt:#1a1d23;--sub:#6b7280;
-    --pt:#3b5bdb;--hot:#e03131;--ev:#eaeefb;--evh:#dde4f8;--sh:rgba(0,0,0,.25)}
-  [data-theme="ivory"]{
-    --bg:#faf5ea;--card:#fffdf6;--line:#e9e0cd;--txt:#3b342a;--sub:#8b8071;
-    --pt:#a4703a;--hot:#c1554a;--ev:#f4ecda;--evh:#ece0c6;--sh:rgba(60,45,20,.28)}
+  --bg:#0f1115;--card:#181b22;--line:#272b34;--txt:#e8eaf0;--sub:#9aa3b2;
+  --pt:#6c8cff;--hot:#ff6b81;--ev:#222736;--evh:#2b3245;--sh:rgba(0,0,0,.5);--gold:#ffc94d}
+[data-theme="light"]{
+  --bg:#ffffff;--card:#f7f8fa;--line:#e2e6ee;--txt:#1a1d23;--sub:#6b7280;
+  --pt:#3b5bdb;--hot:#e03131;--ev:#eaeefb;--evh:#dde4f8;--sh:rgba(0,0,0,.25);--gold:#e8a13a}
+[data-theme="ivory"]{
+  --bg:#faf5ea;--card:#fffdf6;--line:#e9e0cd;--txt:#3b342a;--sub:#8b8071;
+  --pt:#a4703a;--hot:#c1554a;--ev:#f4ecda;--evh:#ece0c6;--sh:rgba(60,45,20,.28);--gold:#c9922e}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--txt);
     font-family:system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
@@ -65,9 +65,24 @@
   .wbody{padding:6px;overflow-y:auto;flex:1;max-height:420px}
   .wev{font-size:11.5px;background:var(--ev);border-left:3px solid var(--pt);
     border-radius:4px;padding:5px 6px;margin-bottom:4px;cursor:pointer;line-height:1.35}
+    /* 주간 항목 (기존 .wev / .wev b / .wev i 규칙 대체) */
+  .wev{display:flex;gap:5px;align-items:flex-start;background:var(--ev);
+    border-left:3px solid var(--pt);border-radius:4px;padding:5px 6px;margin-bottom:4px;line-height:1.35}
   .wev:hover{background:var(--evh)}
-  .wev b{display:block;font-weight:600;margin-bottom:2px}
-  .wev i{font-style:normal;color:var(--sub);font-size:10.5px}
+  .wev.fav{border-left-color:var(--gold)}
+  .wtx{flex:1;min-width:0;cursor:pointer;font-size:11.5px}
+  .wtx b{display:block;font-weight:600;margin-bottom:2px}
+  .wtx i{font-style:normal;color:var(--sub);font-size:10.5px}
+
+  /* 즐겨찾기 */
+  .star{cursor:pointer;background:none;border:none;padding:1px 3px;
+    font-size:14px;line-height:1;color:var(--sub);flex-shrink:0}
+  .star.on{color:var(--gold)}
+  .star:hover{color:var(--gold);transform:scale(1.2)}
+  .ev.fav{border-left-color:var(--gold)}
+  .ev.fav::before{content:"★ ";color:var(--gold)}
+  .dl h3 .star{font-size:18px;vertical-align:middle}
+
   /* 모달 */
   dialog{background:var(--card);color:var(--txt);border:1px solid var(--line);
     border-radius:14px;max-width:560px;width:92%;padding:0;box-shadow:0 8px 40px var(--sh)}
@@ -106,6 +121,7 @@
     <select id="area"><option value="">전체 지역</option></select>
     <select id="genre"><option value="">전체 장르</option></select>
     <input id="q" placeholder="공연명·아티스트 검색" style="min-width:170px">
+    <button id="favOnly">☆ 관심만</button>
     <div class="seg">
       <button id="mPerf" class="on">공연일</button>
       <button id="mOpen">예매오픈일</button>
@@ -161,6 +177,26 @@ document.querySelectorAll('.theme button')
   .forEach(b => b.onclick = () => setTheme(b.dataset.t));
 setTheme(localStorage.getItem('cc-theme') || 'dark');
 
+/* ---------- 즐겨찾기 ---------- */
+const FAV = new Set(JSON.parse(localStorage.getItem('cc-fav') || '[]'));
+let favOnlyMode = false;
+const isFav = id => FAV.has(id);
+const starHtml = id =>
+  `<button class="star ${isFav(id) ? 'on' : ''}" data-fav="${id}"
+     title="관심 공연">${isFav(id) ? '★' : '☆'}</button>`;
+
+function toggleFav(id){
+  FAV.has(id) ? FAV.delete(id) : FAV.add(id);
+  localStorage.setItem('cc-fav', JSON.stringify([...FAV]));
+  syncFavBtn();
+}
+function syncFavBtn(){
+  favOnly.textContent = `${favOnlyMode ? '★' : '☆'} 관심만 (${FAV.size})`;
+  favOnly.classList.toggle('on', favOnlyMode);
+}
+favOnly.onclick = () => { favOnlyMode = !favOnlyMode; syncFavBtn(); render(); };
+syncFavBtn();
+  
 /* ---------- 데이터 ---------- */
 render();
 fetch('data/concerts.json?v=' + Date.now())
@@ -183,8 +219,9 @@ function fill(id, list){
 }
 function filtered(){
   const a = area.value, g = genre.value, t = q.value.trim().toLowerCase();
-  return DATA.filter(d =>
+    return DATA.filter(d =>
     (!a || d.area === a) && (!g || d.genre === g) &&
+    (!favOnlyMode || FAV.has(d.id)) &&
     (!t || (d.name + ' ' + d.cast).toLowerCase().includes(t)));
 }
 function priceText(d){
@@ -228,14 +265,14 @@ function renderMonth(){
     total += evs.length;
     const cls = ['cell', dt.getDay() === 0 ? 'sun' : '', k === key(new Date()) ? 'today' : ''].join(' ');
     html += `<div class="${cls}" data-day="${k}"><div class="dnum">${day}</div>`
-      + evs.slice(0,3).map(e =>
-          `<div class="ev ${mode==='open'?'open':''}" data-id="${e.d.id}">`
+            + evs.slice(0,3).map(e =>
+          `<div class="ev ${mode==='open'?'open':''} ${isFav(e.d.id)?'fav':''}" data-id="${e.d.id}">`
           + `${e.time ? e.time + ' ' : ''}${e.d.name}</div>`).join('')
       + (evs.length > 3 ? `<div class="more link">+${evs.length - 3}건 전체보기</div>` : '')
       + '</div>';
   }
   cal.innerHTML = html;
-  count.textContent = `이번 달 ${total}건 · 날짜를 클릭하면 그 날 전체 목록`;
+    count.textContent = `이번 달 ${total}건${favOnlyMode ? ' (관심 공연만)' : ''} · 날짜를 클릭하면 그 날 전체 목록`;
   bind(cal);
 }
 
@@ -256,11 +293,13 @@ function renderWeek(){
         <b>${dt.getMonth()+1}.${dt.getDate()}</b>
         <span class="more">${evs.length}건</span>
       </div>
-      <div class="wbody">${
-        evs.length ? evs.map(ev => `<div class="wev" data-id="${ev.d.id}">
-            <b>${ev.time ? ev.time + ' ' : ''}${ev.d.name}</b>
-            <i>${ev.d.venue}${priceText(ev.d) ? ' · ' + priceText(ev.d) : ''}</i>
-          </div>`).join('')
+            <div class="wbody">${
+        evs.length ? evs.map(ev => `<div class="wev ${isFav(ev.d.id)?'fav':''}">
+            ${starHtml(ev.d.id)}
+            <div class="wtx" data-id="${ev.d.id}">
+              <b>${ev.time ? ev.time + ' ' : ''}${ev.d.name}</b>
+              <i>${ev.d.venue}${priceText(ev.d) ? ' · ' + priceText(ev.d) : ''}</i>
+            </div></div>`).join('')
         : '<div class="more" style="padding:6px">일정 없음</div>'}</div></div>`;
   }
   week.innerHTML = html;
@@ -269,29 +308,39 @@ function renderWeek(){
 }
 
 function bind(root){
+  root.querySelectorAll('[data-fav]').forEach(el =>
+    el.onclick = ev => { ev.stopPropagation(); toggleFav(el.dataset.fav); render(); });
   root.querySelectorAll('[data-id]').forEach(el =>
     el.onclick = ev => { ev.stopPropagation(); openDetail(DATA.find(d => d.id === el.dataset.id)); });
   root.querySelectorAll('[data-day]').forEach(el =>
     el.onclick = () => openDay(el.dataset.day));
 }
 
-/* ---------- 날짜별 전체 목록 ---------- */
+  /* ---------- 날짜별 전체 목록 ---------- */
 function openDay(k){
   lastDay = k;
-  const evs = buildMap()[k] || [];
+  const evs = (buildMap()[k] || [])
+    .slice().sort((a,b) => (isFav(b.d.id) ? 1 : 0) - (isFav(a.d.id) ? 1 : 0));
   const [y,m,d] = k.split('-').map(Number);
   const w = DOW[new Date(y, m-1, d).getDay()];
+  const favCnt = evs.filter(e => isFav(e.d.id)).length;
   dayBody.innerHTML = `<h3>${y}년 ${m}월 ${d}일 (${w})</h3>
-    <div class="meta">${mode === 'open' ? '예매 오픈' : '공연'} ${evs.length}건</div>
-    ${evs.length ? evs.map(e => `<div class="row" data-id="${e.d.id}">
-        <div class="n"><b>${e.time ? e.time + ' · ' : ''}${e.d.name}</b>
+    <div class="meta">${mode === 'open' ? '예매 오픈' : '공연'} ${evs.length}건${
+      favCnt ? ` · 관심 ${favCnt}건` : ''}</div>
+    ${evs.length ? evs.map(e => `<div class="row">
+        ${starHtml(e.d.id)}
+        <div class="n" data-id="${e.d.id}"><b>${e.time ? e.time + ' · ' : ''}${e.d.name}</b>
         <span>${e.d.area} · ${e.d.venue} · ${e.d.genre}</span></div>
         <div class="p">${priceText(e.d)}</div></div>`).join('')
       : '<p class="more">이 날짜에는 일정이 없습니다.</p>'}
     <p style="text-align:right;margin:14px 0 0"><button onclick="dayModal.close()">닫기</button></p>`;
+
+  dayBody.querySelectorAll('[data-fav]').forEach(el =>
+    el.onclick = ev => { ev.stopPropagation(); toggleFav(el.dataset.fav); render(); openDay(k); });
   dayBody.querySelectorAll('[data-id]').forEach(el =>
     el.onclick = () => { dayModal.close(); openDetail(DATA.find(x => x.id === el.dataset.id), true); });
-  dayModal.showModal();
+
+  if (!dayModal.open) dayModal.showModal();
 }
 
 function openDetail(d, fromDay){
@@ -300,7 +349,7 @@ function openDetail(d, fromDay){
   const tiers = p.free ? '전석 무료'
     : (p.tiers && p.tiers.length) ? p.tiers.map(t => `${t.grade} ${KRW(t.price)}`).join('<br>')
     : (p.raw || '가격 정보 없음');
-  dlbody.innerHTML = `<h3>${d.name}</h3>
+    dlbody.innerHTML = `<h3>${starHtml(d.id)} ${d.name}</h3>
     <div class="meta">${d.area} · ${d.venue} · ${d.genre}</div>
     <table>
       <tr><td>공연기간</td><td>${d.from} ~ ${d.to}</td></tr>
@@ -320,7 +369,9 @@ function openDetail(d, fromDay){
     <p style="text-align:right;margin:14px 0 0">
       ${fromDay ? '<button id="back">← 목록</button> ' : ''}
       <button onclick="modal.close()">닫기</button></p>`;
-  modal.showModal();
+    if (!modal.open) modal.showModal();
+  const st = dlbody.querySelector('[data-fav]');
+  if (st) st.onclick = () => { toggleFav(d.id); render(); openDetail(d, fromDay); };
   const b = document.getElementById('back');
   if (b) b.onclick = () => { modal.close(); openDay(lastDay); };
 }
@@ -343,6 +394,7 @@ vWeek.onclick  = () => seg(vWeek, vMonth, () => view = 'week');
 
 document.getElementById('reset').onclick = () => {   // 제목 클릭 → 초기화
   area.value = ''; genre.value = ''; q.value = '';
+  favOnlyMode = false; syncFavBtn();
   mode = 'perf'; view = 'month'; cur = new Date();
   mPerf.classList.add('on'); mOpen.classList.remove('on');
   vMonth.classList.add('on'); vWeek.classList.remove('on');
