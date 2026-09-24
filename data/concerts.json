@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-23T23:35:12.571Z",
+ "updatedAt": "2026-09-24T23:55:38.493Z",
  "items": [
   {
    "id": "PF301358",
@@ -11577,6 +11577,52 @@
    ]
   },
   {
+   "id": "PF299596",
+   "name": "수성아트피아 명품시리즈 Ⅶ, 임윤찬 피아노 리사이틀 [대구]",
+   "from": "2026-10-05",
+   "to": "2026-10-05",
+   "venue": "수성아트피아 (대극장 (대공연장) )",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "임윤찬",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "(재)수성문화재단 수성아트피아",
+   "times": "월요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299596_260828_113356.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 150,000원, S석 120,000원, A석 80,000원, B석 50,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 150000
+     },
+     {
+      "grade": "S석",
+      "price": 120000
+     },
+     {
+      "grade": "A석",
+      "price": 80000
+     },
+     {
+      "grade": "B석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 150000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64863"
+    }
+   ]
+  },
+  {
    "id": "PF299079",
    "name": "[패키지] 더 피아니스트 [대구]",
    "from": "2026-10-05",
@@ -14323,6 +14369,40 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012667"
+    }
+   ]
+  },
+  {
+   "id": "PF299621",
+   "name": "약속의 봄 [대구]",
+   "from": "2026-10-08",
+   "to": "2026-10-08",
+   "venue": "봉산문화회관 (가온홀)",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "김동건, 박상현, 김태인, 박명선, 박범진, 정지윤, 강희준 등",
+   "runtime": "1시간 10분",
+   "age": "만 6세 이상",
+   "host": "인칸토 솔리스트 앙상블",
+   "times": "목요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299621_260828_132937.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/65205"
     }
    ]
   },
@@ -24435,6 +24515,40 @@
    ]
   },
   {
+   "id": "PF299577",
+   "name": "서울남성합창단 정기연주회: Fall in Harmony",
+   "from": "2026-10-15",
+   "to": "2026-10-15",
+   "venue": "서울아트센터 (도암홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "신승용, 김효정, 전수미, 한윤미, 조두행, 백경훈, 최인성 등",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "영음예술기획",
+   "times": "목요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299577_260828_104026.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012079"
+    }
+   ]
+  },
+  {
    "id": "PF299447",
    "name": "제천 달빛아레 콘서트, 멜로디 오브 드라마 (10월)",
    "from": "2026-10-15",
@@ -29977,6 +30091,52 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012506"
+    }
+   ]
+  },
+  {
+   "id": "PF299630",
+   "name": "낭만주의 거장, 차이코프스키 & 라흐마니노프 [성남]",
+   "from": "2026-10-17",
+   "to": "2026-10-17",
+   "venue": "성남아트센터 (콘서트홀)",
+   "area": "경기도",
+   "genre": "서양음악(클래식)",
+   "cast": "박해원, 일리야 라쉬코프스키, 노예진 등",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(사)밀레니엄심포니오케스트라",
+   "times": "토요일(14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299630_260828_135207.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 110,000원, S석 90,000원, A석 70,000원, B석 50,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 110000
+     },
+     {
+      "grade": "S석",
+      "price": 90000
+     },
+     {
+      "grade": "A석",
+      "price": 70000
+     },
+     {
+      "grade": "B석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 110000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012546"
     }
    ]
   },
@@ -38683,6 +38843,52 @@
     {
      "name": "NHN티켓링크",
      "url": "https://www.ticketlink.co.kr/product/65239"
+    }
+   ]
+  },
+  {
+   "id": "PF299579",
+   "name": "수성아트피아 명품시리즈 Ⅷ, 손민수 피아노 리사이틀 [대구]",
+   "from": "2026-10-24",
+   "to": "2026-10-24",
+   "venue": "수성아트피아 (대극장 (대공연장) )",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "손민수",
+   "runtime": "1시간 50분",
+   "age": "만 7세 이상",
+   "host": "(재)수성문화재단 수성아트피아",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299579_260828_104227.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 100,000원, S석 80,000원, A석 60,000원, B석 30,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 100000
+     },
+     {
+      "grade": "S석",
+      "price": 80000
+     },
+     {
+      "grade": "A석",
+      "price": 60000
+     },
+     {
+      "grade": "B석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 100000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64867"
     }
    ]
   },
