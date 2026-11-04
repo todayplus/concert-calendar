@@ -1,58 +1,20 @@
 {
- "updatedAt": "2026-11-03T03:13:48.056Z",
+ "updatedAt": "2026-11-04T01:17:27.135Z",
  "items": [
   {
-   "id": "PF303958",
-   "name": "The BOUND, Elsewhere",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "아스트라홀 (아스트라홀)",
+   "id": "PF305335",
+   "name": "Flare Fes. 14",
+   "from": "2026-11-05",
+   "to": "2026-11-05",
+   "venue": "사운드스테이션MA (사운드스테이션MA)",
    "area": "서울특별시",
    "genre": "대중음악",
    "cast": "",
-   "runtime": "4시간",
+   "runtime": "3시간 30분",
    "age": "전체 관람가",
-   "host": "",
-   "times": "수요일(19:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303958_261021_104931.png",
-   "state": "공연예정",
-   "price": {
-    "raw": "현장판매 25,000원, 사전예약 22,000원",
-    "tiers": [
-     {
-      "grade": "현장판매",
-      "price": 25000
-     },
-     {
-      "grade": "사전예약",
-      "price": 22000
-     }
-    ],
-    "min": 22000,
-    "max": 25000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1640000"
-    }
-   ]
-  },
-  {
-   "id": "PF303884",
-   "name": "라라라온 [스튜디오 엔텐바흐]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "스튜디오 엔텐바흐(Studio ENTENBACH) (스튜디오 엔텐바흐(B1))",
-   "area": "서울특별시",
-   "genre": "대중음악",
-   "cast": "한상훈, 김은비, 이봉규, 박성준, 정다운, 이제형, 김예일 등",
-   "runtime": "1시간 40분",
-   "age": "만 7세 이상",
-   "host": "(사)한국음악레이블산업협회",
-   "times": "수요일(20:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303884_261020_132712.jpg",
+   "host": "아티팩토리엔터테인먼트 주식회사",
+   "times": "목요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305335_261103_155730.jpg",
    "state": "공연예정",
    "price": {
     "raw": "전석 22,000원",
@@ -68,795 +30,8 @@
    },
    "booking": [
     {
-     "name": "2TM(우리은행)",
-     "url": "https://www.2tm.co.kr/ticket/10902"
-    }
-   ]
-  },
-  {
-   "id": "PF303739",
-   "name": "제4회 지역주민과 함께하는 Fall in Art: 김나영 & 케이시 공연 (3회차) [나주]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "한국전력공사 본사 (한빛홀)",
-   "area": "전남광주통합특별시",
-   "genre": "대중음악",
-   "cast": "김나영, 김소연",
-   "runtime": "1시간",
-   "age": "만 7세 이상",
-   "host": "(주)한전KPS, 한국전력공사, 한전KDN",
-   "times": "수요일(19:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303739_261019_133800.png",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석무료",
-    "tiers": [],
-    "min": 0,
-    "max": 0,
-    "free": true
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/66052"
-    }
-   ]
-  },
-  {
-   "id": "PF303135",
-   "name": "29CM STAGE, 신인류 X 29CM Editorial",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "무신사 개러지 (구. 왓챠홀) (무신사 개러지 (구. 왓챠홀) )",
-   "area": "서울특별시",
-   "genre": "대중음악",
-   "cast": "",
-   "runtime": "1시간 30분",
-   "age": "만 11세 이상",
-   "host": "29CM CULTURE",
-   "times": "수요일(20:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303135_261013_105347.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 29,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 29000
-     }
-    ],
-    "min": 29000,
-    "max": 29000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "29CM",
-     "url": "https://ticket.29cm.co.kr/catalog/4276909"
-    }
-   ]
-  },
-  {
-   "id": "PF285221",
-   "name": "성남아트센터 오후의 콘서트: 수요재즈클럽 (11월)",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "성남아트센터 (앙상블씨어터)",
-   "area": "경기도",
-   "genre": "대중음악",
-   "cast": "알베르토 몬디, 김효진, 조운, 유택언, 이동민, 김경태",
-   "runtime": "1시간 30분",
-   "age": "만 7세 이상",
-   "host": "(재)성남문화재단",
-   "times": "수요일(15:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF285221_260213_151301.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 20,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 20000
-     }
-    ],
-    "min": 20000,
-    "max": 20000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26001595"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/57169"
-    }
-   ]
-  },
-  {
-   "id": "PF300275",
-   "name": "신데렐라 [수원]",
-   "from": "2026-11-04",
-   "to": "2026-11-29",
-   "venue": "KBS 수원아트홀 (KBS 수원아트홀)",
-   "area": "경기도",
-   "genre": "뮤지컬",
-   "cast": "",
-   "runtime": "50분",
-   "age": "24개월 이상",
-   "host": "극단 이후",
-   "times": "수요일 ~ 금요일(10:00,11:10), 토요일 ~ 일요일(11:00,13:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300275_260907_134905.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 35,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 35000
-     }
-    ],
-    "min": 35000,
-    "max": 35000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1728876"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012894"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7484"
-    }
-   ]
-  },
-  {
-   "id": "PF299302",
-   "name": "호두까기 인형 [서울 양천]",
-   "from": "2026-11-04",
-   "to": "2026-11-29",
-   "venue": "한국방송회관 코바코홀 (구. 브로드홀) (한국방송회관 코바코홀 (구. 브로드홀))",
-   "area": "서울특별시",
-   "genre": "뮤지컬",
-   "cast": "",
-   "runtime": "55분",
-   "age": "24개월 이상",
-   "host": "(주)조이컬처",
-   "times": "토요일(11:00,13:00,15:00), 일요일(11:00,14:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299302_260825_105554.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 40,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 40000
-     }
-    ],
-    "min": 40000,
-    "max": 40000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1721911"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/59846"
-    }
-   ]
-  },
-  {
-   "id": "PF298148",
-   "name": "오즈의 크리스마스 [서울 송파]",
-   "from": "2026-11-04",
-   "to": "2026-12-31",
-   "venue": "송파어린이문화회관 (아이소리홀)",
-   "area": "서울특별시",
-   "genre": "뮤지컬",
-   "cast": "",
-   "runtime": "40분",
-   "age": "30개월 이상",
-   "host": "",
-   "times": "화요일 ~ 금요일(10:00,11:30), 토요일(11:40)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298148_260810_161919.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "아동 16,000원, 성인 8,000원",
-    "tiers": [
-     {
-      "grade": "아동",
-      "price": 16000
-     },
-     {
-      "grade": "성인",
-      "price": 8000
-     }
-    ],
-    "min": 8000,
-    "max": 16000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1235604"
-    }
-   ]
-  },
-  {
-   "id": "PF304834",
-   "name": "(사) 서울오케스트라와 함께하는 소아암 환우 돕기 KSC 신인 아티스트 콘서트",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "롯데콘서트홀 (롯데콘서트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "권주용, 허태린, 정용린, 강이솔, 박지우, 정예린, 이지현 등",
-   "runtime": "1시간 30분",
-   "age": "만 5세 이상",
-   "host": "",
-   "times": "수요일(11:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304834_261029_134300.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석무료",
-    "tiers": [],
-    "min": 0,
-    "max": 0,
-    "free": true
-   },
-   "booking": [
-    {
-     "name": "롯데콘서트홀",
-     "url": "https://www.lotteconcerthall.com/product/performance/261246"
-    }
-   ]
-  },
-  {
-   "id": "PF304539",
-   "name": "제12회 경산시립교향악단 정기연주회",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "천마아트센터 (그랜드홀)",
-   "area": "경상북도",
-   "genre": "서양음악(클래식)",
-   "cast": "정현, 일리야 라쉬코프스키 등",
-   "runtime": "1시간 50분",
-   "age": "만 7세 이상",
-   "host": "(주) 경산문화관광재단",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304539_261027_100720.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석무료",
-    "tiers": [],
-    "min": 0,
-    "max": 0,
-    "free": true
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/66289"
-    }
-   ]
-  },
-  {
-   "id": "PF304342",
-   "name": "HELLO ORGAN 2. 탱고와 푸가 [부산]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "부산콘서트홀 (콘서트홀)",
-   "area": "부산광역시",
-   "genre": "서양음악(클래식)",
-   "cast": "노선경, 고상지",
-   "runtime": "1시간",
-   "age": "만 7세 이상",
-   "host": "클래식부산",
-   "times": "수요일(11:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304342_261023_152128.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 30,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 30000
-     }
-    ],
-    "min": 30000,
-    "max": 30000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "부산콘서트홀",
-     "url": "https://classicbusan.busan.go.kr/product/performance/253340"
-    }
-   ]
-  },
-  {
-   "id": "PF304107",
-   "name": "대한민국 작곡제전, 김순남 가곡 연주회 [서울]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "예술의전당 [서울] (리사이틀홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "강혜정, 강형규, 홍예빈, 최영민, 민경찬, 원유선",
-   "runtime": "1시간 40분",
-   "age": "만 7세 이상",
-   "host": "제주아트센터, 현대문화기획",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304107_261022_103721.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 100,000원, S석 20,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 100000
-     },
-     {
-      "grade": "S석",
-      "price": 20000
-     }
-    ],
-    "min": 20000,
-    "max": 100000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014876"
-    }
-   ]
-  },
-  {
-   "id": "PF303906",
-   "name": "제33회 서울리코더합주단 정기연주회",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "꿈의숲아트센터 (콘서트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "조선희, 윤영준, 송태호, 전윤미, 최주영, 김경희, 김광미 등",
-   "runtime": "1시간 30분",
-   "age": "만 6세 이상",
-   "host": "",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303906_261020_142543.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석무료",
-    "tiers": [],
-    "min": 0,
-    "max": 0,
-    "free": true
-   },
-   "booking": [
-    {
-     "name": "세종문화회관",
-     "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37736&menuNo=1200007"
-    }
-   ]
-  },
-  {
-   "id": "PF303804",
-   "name": "소프라노 양민경 초청 독창회",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "세라믹팔레스홀 (세라믹팔레스홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "양민경, 정태진, 맹은경",
-   "runtime": "1시간 50분",
-   "age": "만 7세 이상",
-   "host": "밀알아트센터",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303804_261019_154836.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 20,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 20000
-     }
-    ],
-    "min": 20000,
-    "max": 20000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014241"
-    }
-   ]
-  },
-  {
-   "id": "PF303717",
-   "name": "서리풀 어울림 콘서트, 피아니스트 양지우의 네 개의 질문이 있는 드라마터크 콘서트: with IN & OUT Ⅱ",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "반포심산아트홀 (반포심산아트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "양지우, 최지선",
-   "runtime": "1시간 30분",
-   "age": "만 7세 이상",
-   "host": "(재)서초문화재단",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303717_261019_130306.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 10,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 10000
-     }
-    ],
-    "min": 10000,
-    "max": 10000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014716"
-    }
-   ]
-  },
-  {
-   "id": "PF303494",
-   "name": "전남광주통합특별시립합창단 기획연주회 Ⅶ. 마티네콘서트: 어울림Ⅴ",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "전남광주통합특별시 예술의전당 (구. 광주예술의전당) (로비)",
-   "area": "전남광주통합특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "",
-   "runtime": "1시간",
-   "age": "만 7세 이상",
-   "host": "전남광주통합특별시예술의전당 (구.광주예술의전당)",
-   "times": "수요일(11:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303494_261015_151631.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 10,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 10000
-     }
-    ],
-    "min": 10000,
-    "max": 10000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1755802"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/60615"
-    }
-   ]
-  },
-  {
-   "id": "PF303315",
-   "name": "김예원 플루트 독주회: 빛과 숨결의 유희 [대구]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "대구콘서트하우스 (챔버홀 (소공연장) )",
-   "area": "대구광역시",
-   "genre": "서양음악(클래식)",
-   "cast": "김예원, 김종현, 김동엽",
-   "runtime": "1시간 30분",
-   "age": "만 6세 이상",
-   "host": "대구NC앙상블(앙상블 DNCE)",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303315_261014_142458.png",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 10,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 10000
-     }
-    ],
-    "min": 10000,
-    "max": 10000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/66236"
-    }
-   ]
-  },
-  {
-   "id": "PF303306",
-   "name": "푸르지오 아트홀 수요 초대석 47. 바리톤 류승완 독창회: Tutto il Bel Canto!",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "푸르지오아트홀 (푸르지오아트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "류승완, 김하얀",
-   "runtime": "1시간 10분",
-   "age": "만 7세 이상",
-   "host": "탑스테이지",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303306_261014_140120.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 20,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 20000
-     }
-    ],
-    "min": 20000,
-    "max": 20000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "멜론티켓",
-     "url": "https://ticket.melon.com/performance/index.htm?prodId=214063"
-    }
-   ]
-  },
-  {
-   "id": "PF302788",
-   "name": "희망 Dream NEXT Concert: STAGE",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "롯데콘서트홀 (롯데콘서트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "정치용, 임주희, 김다미 등",
-   "runtime": "2시간",
-   "age": "만 7세 이상",
-   "host": "",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302788_261008_111018.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석무료",
-    "tiers": [],
-    "min": 0,
-    "max": 0,
-    "free": true
-   },
-   "booking": [
-    {
-     "name": "롯데콘서트홀",
-     "url": "https://www.lotteconcerthall.com/product/performance/261226"
-    }
-   ]
-  },
-  {
-   "id": "PF302611",
-   "name": "제26회 현대음악앙상블 소리 정기연주회: Dream & Life",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "예술의전당 [서울] (IBK챔버홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "정원순, 이영현, 최예선, 이숙정, 장하얀, 배종선, 권혜진 등",
-   "runtime": "1시간 30분",
-   "age": "만 7세 이상",
-   "host": "지클레프",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302611_261006_163742.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 50,000원, S석 30,000원, A석 20,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 50000
-     },
-     {
-      "grade": "S석",
-      "price": 30000
-     },
-     {
-      "grade": "A석",
-      "price": 20000
-     }
-    ],
-    "min": 20000,
-    "max": 50000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013902"
-    }
-   ]
-  },
-  {
-   "id": "PF302117",
-   "name": "제21회 이마에스트리 정기연주회",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "예술의전당 [서울] (콘서트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "강성찬, 강신모, 권오혁, 김성진, 김재일, 김태형, 김충식 등",
-   "runtime": "1시간 50분",
-   "age": "만 7세 이상",
-   "host": "(사)미래성악포럼",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302117_261014_134119.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 160,000원, S석 110,000원, A석 80,000원, B석 50,000원, C석 20,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 160000
-     },
-     {
-      "grade": "S석",
-      "price": 110000
-     },
-     {
-      "grade": "A석",
-      "price": 80000
-     },
-     {
-      "grade": "B석",
-      "price": 50000
-     },
-     {
-      "grade": "C석",
-      "price": 20000
-     }
-    ],
-    "min": 20000,
-    "max": 160000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013837"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/60493"
-    }
-   ]
-  },
-  {
-   "id": "PF301512",
-   "name": "제10회 클로리스 피아노 트리오 정기연주회",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "세종문화회관 (세종체임버홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "정상희, 정승연, 조혜정",
-   "runtime": "1시간 30분",
-   "age": "만 6세 이상",
-   "host": "",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301512_260922_101353.png",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 30,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 30000
-     }
-    ],
-    "min": 30000,
-    "max": 30000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004847"
-    },
-    {
-     "name": "세종문화회관",
-     "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37673&menuNo=200320"
-    }
-   ]
-  },
-  {
-   "id": "PF298871",
-   "name": "월드오케스트라페스티벌, 경상북도 도립교향악단 [대구]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "대구콘서트하우스 (그랜드홀 (대공연장) )",
-   "area": "대구광역시",
-   "genre": "서양음악(클래식)",
-   "cast": "서진, 문지영 등",
-   "runtime": "1시간 40분",
-   "age": "만 7세 이상",
-   "host": "대구콘서트하우스",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298871_260819_142329.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 20,000원, S석 10,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 20000
-     },
-     {
-      "grade": "S석",
-      "price": 10000
-     }
-    ],
-    "min": 10000,
-    "max": 20000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012089"
-    }
-   ]
-  },
-  {
-   "id": "PF286123",
-   "name": "조성현 바흐 플루트 소나타 전곡 리사이틀 [원주]",
-   "from": "2026-11-04",
-   "to": "2026-11-04",
-   "venue": "플레이리스트 (플레이리스트)",
-   "area": "강원특별자치도",
-   "genre": "서양음악(클래식)",
-   "cast": "조성현, 이은지, 조현근",
-   "runtime": "1시간 35분",
-   "age": "만 7세 이상",
-   "host": "(주)파이플랜즈 (pie plans)",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF286123_260923_155328.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 50,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 50000
-     }
-    ],
-    "min": 50000,
-    "max": 50000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26000940"
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4381"
     }
    ]
   },
@@ -1178,6 +353,40 @@
     {
      "name": "현대예술관",
      "url": "https://www.hd-artscenter.co.kr/performance/list.do?keyword=&ticketingitemseq=0000004050&mid=0000&SVC_ID=detail&unicodeseqitemtype=0000000607&now=Y&pageNo=1&returnPage=list"
+    }
+   ]
+  },
+  {
+   "id": "PF305289",
+   "name": "센텀아트홀 기획공연, 부산기타트리오 콘서트: 먼 곳에서, 우리곁으로",
+   "from": "2026-11-05",
+   "to": "2026-11-05",
+   "venue": "센텀아트홀 (센텀아트홀)",
+   "area": "부산광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "김경태, 박정현, 정어진",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "센텀아트홀",
+   "times": "목요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305289_261103_144719.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/5/bizes/1384551"
     }
    ]
   },
@@ -2140,6 +1349,112 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/56262"
+    }
+   ]
+  },
+  {
+   "id": "PF305331",
+   "name": "MEOW! Miyu Birthday Live",
+   "from": "2026-11-06",
+   "to": "2026-11-06",
+   "venue": "아스트라홀 (아스트라홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 50분",
+   "age": "전체 관람가",
+   "host": "KJ프로덕션",
+   "times": "금요일(18:40)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305331_261103_155132.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4332"
+    }
+   ]
+  },
+  {
+   "id": "PF305324",
+   "name": "IDOL ASCEND VOL.1",
+   "from": "2026-11-06",
+   "to": "2026-11-06",
+   "venue": "아지토 라이브 홀 (라이브 홀 )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 20분",
+   "age": "전체 관람가",
+   "host": "LINK",
+   "times": "금요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305324_261103_153749.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 22,000원, 사전예약 18,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 22000
+     },
+     {
+      "grade": "사전예약",
+      "price": 18000
+     }
+    ],
+    "min": 18000,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4373"
+    }
+   ]
+  },
+  {
+   "id": "PF305285",
+   "name": "라라라온 [롴돰 로컬다움]",
+   "from": "2026-11-06",
+   "to": "2026-11-06",
+   "venue": "롴돰 로컬다움 (롴돰 로컬다움)",
+   "area": "경상북도",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "(사)한국음악레이블산업협회",
+   "times": "금요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305285_261103_143736.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 22,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 22000
+     }
+    ],
+    "min": 22000,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "2TM(우리은행)",
+     "url": "https://www.2tm.co.kr/ticket/10904"
     }
    ]
   },
@@ -4318,48 +3633,6 @@
    ]
   },
   {
-   "id": "PF300287",
-   "name": "포항국제음악제, 개막공연: 흐름",
-   "from": "2026-11-06",
-   "to": "2026-11-06",
-   "venue": "포항문화예술회관 (대공연장)",
-   "area": "경상북도",
-   "genre": "서양음악(클래식)",
-   "cast": "이승원, 지안 왕 등",
-   "runtime": "1시간 45분",
-   "age": "만 7세 이상",
-   "host": "(재)포항문화재단",
-   "times": "금요일(19:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300287_260907_142027.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 50,000원, S석 40,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 50000
-     },
-     {
-      "grade": "S석",
-      "price": 40000
-     }
-    ],
-    "min": 40000,
-    "max": 50000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/65382"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1738607"
-    }
-   ]
-  },
-  {
    "id": "PF299388",
    "name": "조성현 바흐 플루트 소나타 전곡 리사이틀 [서울]",
    "from": "2026-11-06",
@@ -4536,6 +3809,82 @@
     {
      "name": "대전시립예술단",
      "url": "https://www.daejeon.go.kr/djac/performanceView.do?menuSeq=6710&code=5431&gubun=yearly&gubun2=2026&gubun3=11"
+    }
+   ]
+  },
+  {
+   "id": "PF305311",
+   "name": "MIERE Release Event: We Are Winner",
+   "from": "2026-11-07",
+   "to": "2026-11-07",
+   "venue": "아스트라홀 (아스트라홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 50분",
+   "age": "전체 관람가",
+   "host": "캔디마운틴(CANDY MOUNTAIN)",
+   "times": "토요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305311_261103_152529.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 30,000원, 사전예약 25,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 30000
+     },
+     {
+      "grade": "사전예약",
+      "price": 25000
+     }
+    ],
+    "min": 25000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4366"
+    }
+   ]
+  },
+  {
+   "id": "PF305284",
+   "name": "ARIS 2ND RELEASE EVENT: OUT",
+   "from": "2026-11-07",
+   "to": "2026-11-07",
+   "venue": "웨스트브릿지 라이브홀 (웨스트브릿지 라이브홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "5시간 10분",
+   "age": "전체 관람가",
+   "host": "META WAVE",
+   "times": "토요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305284_261103_143534.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 25,000원, 현장판매 30,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 25000
+     },
+     {
+      "grade": "현장판매",
+      "price": 30000
+     }
+    ],
+    "min": 25000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4344"
     }
    ]
   },
@@ -11583,35 +10932,6 @@
    ]
   },
   {
-   "id": "PF303239",
-   "name": "남성합창단 등대 창단 12주년 콘서트",
-   "from": "2026-11-08",
-   "to": "2026-11-08",
-   "venue": "성남아트센터 (콘서트홀)",
-   "area": "경기도",
-   "genre": "서양음악(클래식)",
-   "cast": "김소연, 이보연, 엄연준, 홍의표, 안용, 이선아 등",
-   "runtime": "1시간 40분",
-   "age": "만 3세 이상",
-   "host": "",
-   "times": "일요일(15:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303239_261013_160603.jpeg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석무료",
-    "tiers": [],
-    "min": 0,
-    "max": 0,
-    "free": true
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014532"
-    }
-   ]
-  },
-  {
    "id": "PF302920",
    "name": "김준희 피아노 독주회: 바람과 바다 그리고 그들의 대화",
    "from": "2026-11-08",
@@ -12087,6 +11407,44 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008470"
+    }
+   ]
+  },
+  {
+   "id": "PF305318",
+   "name": "MIKOME LAST LIVE: END",
+   "from": "2026-11-09",
+   "to": "2026-11-09",
+   "venue": "아틀리에홀 (아틀리에홀 (B1) )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "4시간 10분",
+   "age": "전체 관람가",
+   "host": "FLIP PRODUCTION",
+   "times": "월요일(18:50)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305318_261103_153100.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 25,000원, 사전예약 20,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 25000
+     },
+     {
+      "grade": "사전예약",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4330"
     }
    ]
   },
@@ -13055,6 +12413,40 @@
    ]
   },
   {
+   "id": "PF303811",
+   "name": "제12회 경남페스티벌앙상블 정기연주회: 맥박 [창원]",
+   "from": "2026-11-10",
+   "to": "2026-11-10",
+   "venue": "성산아트홀 (소극장)",
+   "area": "경상남도",
+   "genre": "서양음악(클래식)",
+   "cast": "이동신, 정원영, 황경민, 장원우, 이승빈 등",
+   "runtime": "",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "화요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303811_261019_160031.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1748765"
+    }
+   ]
+  },
+  {
    "id": "PF303779",
    "name": "제98회 예술공감, 빈체로오페라콰이어가 부르는 부산",
    "from": "2026-11-10",
@@ -13637,6 +13029,120 @@
    ]
   },
   {
+   "id": "PF305350",
+   "name": "AZITO PLAY, 메이드",
+   "from": "2026-11-11",
+   "to": "2026-11-11",
+   "venue": "아지토 라이브 홀 (라이브 홀 )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 40분",
+   "age": "전체 관람가",
+   "host": "아지토(AZITO)",
+   "times": "수요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305350_261103_161704.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 25,000원, 사전예약 20,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 25000
+     },
+     {
+      "grade": "사전예약",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4139"
+    }
+   ]
+  },
+  {
+   "id": "PF305322",
+   "name": "MiX: ON VOL.2: 11+11",
+   "from": "2026-11-11",
+   "to": "2026-11-11",
+   "venue": "세토리 라이브홀 (공연장)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 30분",
+   "age": "전체 관람가",
+   "host": "META WAVE",
+   "times": "수요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305322_261103_153510.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 22,000원, 사전예약 11,110원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 22000
+     },
+     {
+      "grade": "사전예약",
+      "price": 11110
+     }
+    ],
+    "min": 11110,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4409"
+    }
+   ]
+  },
+  {
+   "id": "PF305071",
+   "name": "LIVE in SETi Vol.98 PEPERO DAY",
+   "from": "2026-11-11",
+   "to": "2026-11-11",
+   "venue": "세티 라이브홀 (SETI LIVE HALL) (세티 라이브홀 (SETI LIVE HALL) )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "수요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305071_261102_133732.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 20,000원, 현장판매 25,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 20000
+     },
+     {
+      "grade": "현장판매",
+      "price": 25000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1293964"
+    }
+   ]
+  },
+  {
    "id": "PF304599",
    "name": "라라라온 [서울 클럽샤프]",
    "from": "2026-11-11",
@@ -13956,6 +13462,64 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60128"
+    }
+   ]
+  },
+  {
+   "id": "PF305253",
+   "name": "구로문화재단 x 주한이탈리아문화원 공동기획 시리즈3, 에리카 파간의 이탈리아 음악기행",
+   "from": "2026-11-11",
+   "to": "2026-11-11",
+   "venue": "구로아트밸리 (예술극장)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "에리카 파간, 체사레 그라시",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "host": "(재)구로문화재단, 주한이탈리아문화원",
+   "times": "수요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305253_261103_132221.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석무료",
+    "tiers": [],
+    "min": 0,
+    "max": 0,
+    "free": true
+   },
+   "booking": [
+    {
+     "name": "나눔티켓",
+     "url": "https://nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14145"
+    }
+   ]
+  },
+  {
+   "id": "PF305199",
+   "name": "평화통일 기원음악회 [부산]",
+   "from": "2026-11-11",
+   "to": "2026-11-11",
+   "venue": "(재) 영화의전당 (하늘연극장)",
+   "area": "부산광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "서희태, 김종표, 박현진, 이은진, 신동룡 등",
+   "runtime": "",
+   "age": "만 7세 이상",
+   "host": "",
+   "times": "수요일(16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305199_261103_104118.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석무료",
+    "tiers": [],
+    "min": 0,
+    "max": 0,
+    "free": true
+   },
+   "booking": [
+    {
+     "name": "영화의전당",
+     "url": "https://www.dureraum.org/bcc/ccontents/view.do?rbsIdx=40&contentsCode=20261102004"
     }
    ]
   },
@@ -14696,6 +14260,78 @@
    ]
   },
   {
+   "id": "PF305339",
+   "name": "Flare Fes. 15",
+   "from": "2026-11-12",
+   "to": "2026-11-12",
+   "venue": "사운드스테이션MA (사운드스테이션MA)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 30분",
+   "age": "전체 관람가",
+   "host": "아티팩토리엔터테인먼트 주식회사",
+   "times": "목요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305339_261103_160246.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 22,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 22000
+     }
+    ],
+    "min": 22000,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4422"
+    }
+   ]
+  },
+  {
+   "id": "PF305304",
+   "name": "お祭り開演: 한국교복",
+   "from": "2026-11-12",
+   "to": "2026-11-12",
+   "venue": "아지토 라이브 홀 (라이브 홀 )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "2시간",
+   "age": "전체 관람가",
+   "host": "피피아이프로덕션(PPI PRODUCTION)",
+   "times": "목요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305304_261103_151617.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 25,000원, 사전예약 23,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 25000
+     },
+     {
+      "grade": "사전예약",
+      "price": 23000
+     }
+    ],
+    "min": 23000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4423"
+    }
+   ]
+  },
+  {
    "id": "PF305080",
    "name": "Go Stage Live project #1. 이예신 단독공연: Autumn's Leave",
    "from": "2026-11-12",
@@ -14867,6 +14503,10 @@
     "free": false
    },
    "booking": [
+    {
+     "name": "나눔티켓",
+     "url": "https://nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14146"
+    },
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014343"
@@ -15192,6 +14832,35 @@
     {
      "name": "놀유니버스",
      "url": "https://tickets.interpark.com/goods/26010773"
+    }
+   ]
+  },
+  {
+   "id": "PF305230",
+   "name": "토우 김유신의 꿈 [경주]",
+   "from": "2026-11-12",
+   "to": "2026-11-12",
+   "venue": "경주예술의전당 (소공연장(원화홀))",
+   "area": "경상북도",
+   "genre": "서양음악(클래식)",
+   "cast": "박보윤, 강민성, 이민정, 김성진, 권별, 손혜지",
+   "runtime": "1시간",
+   "age": "만 4세 이상",
+   "host": "경주오페라단",
+   "times": "목요일(17:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305230_261103_121004.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석무료",
+    "tiers": [],
+    "min": 0,
+    "max": 0,
+    "free": true
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66693"
     }
    ]
   },
@@ -16205,6 +15874,78 @@
    ]
   },
   {
+   "id": "PF305290",
+   "name": "수상한스테이지 (11.13)",
+   "from": "2026-11-13",
+   "to": "2026-11-13",
+   "venue": "수상한창고 (수상한창고)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "박종수 등",
+   "runtime": "2시간",
+   "age": "만 15세 이상",
+   "host": "수상한 창고(수상한협동조합)",
+   "times": "금요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305290_261103_145107.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 16,000원, 사전예약 14,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 16000
+     },
+     {
+      "grade": "사전예약",
+      "price": 14000
+     }
+    ],
+    "min": 14000,
+    "max": 16000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/5/bizes/726879"
+    }
+   ]
+  },
+  {
+   "id": "PF305233",
+   "name": "안울림의 이야기 콘서트, 보내는 라디오: 당신의 살아냄은 나의 응원가 [대구]",
+   "from": "2026-11-13",
+   "to": "2026-11-13",
+   "venue": "프로토타운 북성로 본부 (프로토타운 북성로 본부)",
+   "area": "대구광역시",
+   "genre": "대중음악",
+   "cast": "안정수, 양현록, 장원준, 김수호, 임광섭, 김승민",
+   "runtime": "1시간",
+   "age": "만 7세 이상",
+   "host": "",
+   "times": "금요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305233_261103_122905.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1758117"
+    }
+   ]
+  },
+  {
    "id": "PF304862",
    "name": "라이브클럽데이, EXTENDED",
    "from": "2026-11-13",
@@ -17142,6 +16883,40 @@
     {
      "name": "타임티켓",
      "url": "https://timeticket.co.kr/product/7514"
+    }
+   ]
+  },
+  {
+   "id": "PF305198",
+   "name": "겨울, 밤마실 콘서트 Ⅵ [대전]",
+   "from": "2026-11-13",
+   "to": "2026-11-14",
+   "venue": "복합문화공간 플랜에이 (플랜에이 B홀)",
+   "area": "대전광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "김지수, 김샛별, 박지은, 박윤희, 이강원, 이시은, 김아영 등",
+   "runtime": "50분",
+   "age": "전체 관람가",
+   "host": "나무예술기획",
+   "times": "금요일(19:30), 토요일(14:00,19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305198_261103_103854.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015612"
     }
    ]
   },
@@ -18110,6 +17885,44 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/58491"
+    }
+   ]
+  },
+  {
+   "id": "PF305308",
+   "name": "FLIP PLAY VOL.6",
+   "from": "2026-11-14",
+   "to": "2026-11-14",
+   "venue": "감마홀 [홍대]  (감마홀 [홍대] )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 50분",
+   "age": "전체 관람가",
+   "host": "FLIP PRODUCTION",
+   "times": "토요일(14:50)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305308_261103_152231.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 30,000원, 사전예약 25,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 30000
+     },
+     {
+      "grade": "사전예약",
+      "price": 25000
+     }
+    ],
+    "min": 25000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4244"
     }
    ]
   },
@@ -19326,56 +19139,6 @@
    ]
   },
   {
-   "id": "PF301686",
-   "name": "진성 단독 토크콘서트: 진성쑈 [목포]",
-   "from": "2026-11-14",
-   "to": "2026-11-14",
-   "venue": "목포시민문화체육센터 (대공연장)",
-   "area": "전남광주통합특별시",
-   "genre": "대중음악",
-   "cast": "진성철, 김태연",
-   "runtime": "2시간",
-   "age": "만 8세 이상",
-   "host": "선준커뮤니케이션, 원커뮤니케이션",
-   "times": "토요일(13:00,17:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301686_260923_134117.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "VIP석 132,000원, R석 110,000원, S석 88,000원",
-    "tiers": [
-     {
-      "grade": "VIP석",
-      "price": 132000
-     },
-     {
-      "grade": "R석",
-      "price": 110000
-     },
-     {
-      "grade": "S석",
-      "price": 88000
-     }
-    ],
-    "min": 88000,
-    "max": 132000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1741121"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "https://nol.yanolja.com/ticket/products/26013509"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/60257"
-    }
-   ]
-  },
-  {
    "id": "PF301214",
    "name": "이창섭 단독 콘서트: Unknown [전주]",
    "from": "2026-11-14",
@@ -19498,6 +19261,10 @@
     {
      "name": "STAYG(KT지니뮤직)",
      "url": "https://www.stayg.tv/channel/onsite/detail/10773"
+    },
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14139"
     },
     {
      "name": "네이버N예약",
@@ -19728,6 +19495,52 @@
     {
      "name": "타임티켓",
      "url": "https://timeticket.co.kr/product/7472"
+    }
+   ]
+  },
+  {
+   "id": "PF298485",
+   "name": "이승철 40주년 콘서트, THE VOICE: LEE SEUNG CHUL [광주]",
+   "from": "2026-11-14",
+   "to": "2026-11-14",
+   "venue": "광주여자대학교 (유니버시아드 체육관)",
+   "area": "전남광주통합특별시",
+   "genre": "대중음악",
+   "cast": "이승철",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)타입커뮤니케이션",
+   "times": "토요일(16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298485_260813_155229.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "FS석 198,000원, VIP석 187,000원, R석 165,000원",
+    "tiers": [
+     {
+      "grade": "FS석",
+      "price": 198000
+     },
+     {
+      "grade": "VIP석",
+      "price": 187000
+     },
+     {
+      "grade": "R석",
+      "price": 165000
+     }
+    ],
+    "min": 165000,
+    "max": 198000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1716081"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59662"
     }
    ]
   },
@@ -21163,6 +20976,35 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26002710"
+    }
+   ]
+  },
+  {
+   "id": "PF305204",
+   "name": "우쿨렐레로 만나는 디즈니 & 지브리 [서울]",
+   "from": "2026-11-14",
+   "to": "2026-11-14",
+   "venue": "서초문화예술회관(구. 서초구민회관) (아트홀(대강당))",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "",
+   "runtime": "1시간 20분",
+   "age": "만 4세 이상",
+   "host": "오케스트라 아리아",
+   "times": "토요일(16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305204_261103_105102.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석무료",
+    "tiers": [],
+    "min": 0,
+    "max": 0,
+    "free": true
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66414"
     }
    ]
   },
@@ -22823,6 +22665,82 @@
    ]
   },
   {
+   "id": "PF305336",
+   "name": "카이온샤 아이돌라이브시리즈, 전심전력진심큐티아이돌즈스매쉬 Vol.1",
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "venue": "클럽 리얼라이즈 [부산] (클럽 리얼라이즈 [부산])",
+   "area": "부산광역시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "2시간",
+   "age": "전체 관람가",
+   "host": "카이온샤",
+   "times": "일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305336_261103_155928.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 25,000원, 사전예약 20,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 25000
+     },
+     {
+      "grade": "사전예약",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4414"
+    }
+   ]
+  },
+  {
+   "id": "PF305302",
+   "name": "마포구 딸기축제",
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "venue": "아스트라홀 (아스트라홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "일요일(16:20)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305302_261103_151225.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 25,000원, 현장판매 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 25000
+     },
+     {
+      "grade": "현장판매",
+      "price": 30000
+     }
+    ],
+    "min": 25000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4336"
+    }
+   ]
+  },
+  {
    "id": "PF305095",
    "name": "이병찬 EP 발매 콘서트: ㄴㅇㄱ",
    "from": "2026-11-15",
@@ -23571,6 +23489,10 @@
    },
    "booking": [
     {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66364"
+    },
+    {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1757848"
     }
@@ -23813,6 +23735,40 @@
    ]
   },
   {
+   "id": "PF305191",
+   "name": "제2회 로무로무 페스타, 김윤세 비올라 독주회: 나란히 울리다",
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "venue": "로데아트센터 (콘서트홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "김윤세",
+   "runtime": "1시간 30분",
+   "age": "전체 관람가",
+   "host": "(주)엔엔터테인먼트",
+   "times": "일요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305191_261103_101007.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015248"
+    }
+   ]
+  },
+  {
    "id": "PF305169",
    "name": "바리톤 박상빈 귀국 독창회",
    "from": "2026-11-15",
@@ -23906,6 +23862,40 @@
     {
      "name": "김정문화회관(서귀포)",
      "url": "https://eticket.seogwipo.go.kr/performance/view?bmcode=show_kim&prodSeq=3000003919"
+    }
+   ]
+  },
+  {
+   "id": "PF304922",
+   "name": "제23회 고양현악합주단 정기연주회: 지금, 이 순간",
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "venue": "고양어울림누리 (별모래극장)",
+   "area": "경기도",
+   "genre": "서양음악(클래식)",
+   "cast": "",
+   "runtime": "1시간 40분",
+   "age": "만 5세 이상",
+   "host": "",
+   "times": "일요일(18:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304922_261030_130526.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "고양어울림누리(고양문화재단)",
+     "url": "https://www.artgy.or.kr/PF/PF0201V.aspx?showid=0000008507"
     }
    ]
   },
@@ -24371,6 +24361,48 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60632"
+    }
+   ]
+  },
+  {
+   "id": "PF302980",
+   "name": "선우예권 피아노 리사이틀 [인천]",
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "venue": "인천서해구문화회관(구. 인천서구문화회관) (대공연장)",
+   "area": "인천광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "선우예권",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "",
+   "times": "일요일(18:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302980_261012_151324.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 30,000원, S석 20,000원, 시야방해석 10,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 30000
+     },
+     {
+      "grade": "S석",
+      "price": 20000
+     },
+     {
+      "grade": "시야방해석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "엔티켓",
+     "url": "https://www.enticket.com:469/pfm/sub01_view.html?p_idx=4439"
     }
    ]
   },
@@ -24921,6 +24953,40 @@
    ]
   },
   {
+   "id": "PF304391",
+   "name": "Heritage Series; The Masters, 클라리네티스트 폴 메이어 & 피아니스트 에릭 르 사쥬",
+   "from": "2026-11-16",
+   "to": "2026-11-16",
+   "venue": "신영체임버홀 (신영체임버홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "폴 메이어, 에릭 르 사쥬",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "host": "(주)마스트미디어",
+   "times": "월요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304391_261026_110353.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015420"
+    }
+   ]
+  },
+  {
    "id": "PF304377",
    "name": "콘체르탄테: 바로크의 숨결, 비르투오조가 말하다",
    "from": "2026-11-16",
@@ -25123,6 +25189,78 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/56693"
+    }
+   ]
+  },
+  {
+   "id": "PF305356",
+   "name": "WANDER YOUR LANE",
+   "from": "2026-11-17",
+   "to": "2026-11-17",
+   "venue": "사운드스테이션MA (사운드스테이션MA)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "1시간 40분",
+   "age": "전체 관람가",
+   "host": "아티팩토리엔터테인먼트 주식회사",
+   "times": "화요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305356_261103_162955.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 15,000원, 사전예약 10,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 15000
+     },
+     {
+      "grade": "사전예약",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 15000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4391"
+    }
+   ]
+  },
+  {
+   "id": "PF305251",
+   "name": "라라라온 [서울 라디오가가]",
+   "from": "2026-11-17",
+   "to": "2026-11-17",
+   "venue": "라디오가가홀 (라이브홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "",
+   "age": "만 7세 이상",
+   "host": "(사)한국음악레이블산업협회",
+   "times": "화요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305251_261103_131940.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 22,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 22000
+     }
+    ],
+    "min": 22000,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "2TM(우리은행)",
+     "url": "https://www.2tm.co.kr/ticket/11000"
     }
    ]
   },
@@ -25626,6 +25764,40 @@
    ]
   },
   {
+   "id": "PF304402",
+   "name": "한국피아노학회 기획연주, 젊은 피아니스트의 초상: The Art of Virtuosity Series Ⅰ. 잔향과 색채",
+   "from": "2026-11-17",
+   "to": "2026-11-17",
+   "venue": "예술의전당 [서울] (인춘아트홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "박지현, 정찬미, 엄태현, 조미정, 신아름",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "이든예술기획(주)",
+   "times": "화요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304402_261026_112926.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015247"
+    }
+   ]
+  },
+  {
    "id": "PF304350",
    "name": "제13회 Cantores 정기연주회, 세계음악기행 시리즈 Ⅳ: 프랑스 편",
    "from": "2026-11-17",
@@ -25660,6 +25832,44 @@
     {
      "name": "세종문화회관",
      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37773&menuNo=200320"
+    }
+   ]
+  },
+  {
+   "id": "PF304268",
+   "name": "제197회 수원시립합창단 정기연주회",
+   "from": "2026-11-17",
+   "to": "2026-11-17",
+   "venue": "수원SK아트리움 (대공연장)",
+   "area": "경기도",
+   "genre": "서양음악(클래식)",
+   "cast": "김보미, 고성현 등",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "host": "",
+   "times": "화요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304268_261023_112749.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 20,000원, S석 10,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 20000
+     },
+     {
+      "grade": "S석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "수원시립예술단",
+     "url": "https://www.artsuwon.or.kr/?p=10_view&p_idx=5115&page=1"
     }
    ]
   },
@@ -26046,6 +26256,112 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/59408"
+    }
+   ]
+  },
+  {
+   "id": "PF305353",
+   "name": "AZITO PLAY, 갸루",
+   "from": "2026-11-18",
+   "to": "2026-11-18",
+   "venue": "아지토 라이브 홀 (라이브 홀 )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 40분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "수요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305353_261103_162619.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 20,000원, 현장판매 25,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 20000
+     },
+     {
+      "grade": "현장판매",
+      "price": 25000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4232"
+    }
+   ]
+  },
+  {
+   "id": "PF305281",
+   "name": "라라라온 [서울 라이브앤라우드]",
+   "from": "2026-11-18",
+   "to": "2026-11-18",
+   "venue": "라이브앤라우드 (라이브앤라우드)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "(사)한국음악레이블산업협회",
+   "times": "수요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305281_261103_142836.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 22,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 22000
+     }
+    ],
+    "min": 22000,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "2TM(우리은행)",
+     "url": "https://www.2tm.co.kr/ticket/11001"
+    }
+   ]
+  },
+  {
+   "id": "PF305200",
+   "name": "한낮의 유U;콘서트 (11월)",
+   "from": "2026-11-18",
+   "to": "2026-11-18",
+   "venue": "(재) 영화의전당 (하늘연극장)",
+   "area": "부산광역시",
+   "genre": "대중음악",
+   "cast": "안치환",
+   "runtime": "",
+   "age": "만 7세 이상",
+   "host": "(재)영화의전당",
+   "times": "수요일(11:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305200_261103_104331.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "영화의전당",
+     "url": "https://www.dureraum.org/bcc/ccontents/view.do?rbsIdx=40&contentsCode=20261102005"
     }
    ]
   },
@@ -26807,6 +27123,78 @@
     {
      "name": "남양주문화재단",
      "url": "https://nyjcf.moonhwain.net/rsvc/rsv_pm.html?b_id=nyjcf&p_idx=719"
+    }
+   ]
+  },
+  {
+   "id": "PF305327",
+   "name": "아이돌 롤링발칸 VOL.2",
+   "from": "2026-11-19",
+   "to": "2026-11-19",
+   "venue": "사운드스테이션MA (사운드스테이션MA)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "2시간",
+   "age": "만 14세 이상",
+   "host": "아이돌 롤링발칸",
+   "times": "목요일(18:50)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305327_261103_154242.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 18,000원, 사전예약 15,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 18000
+     },
+     {
+      "grade": "사전예약",
+      "price": 15000
+     }
+    ],
+    "min": 15000,
+    "max": 18000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4415"
+    }
+   ]
+  },
+  {
+   "id": "PF305236",
+   "name": "라라라온 [서울 퍼플노이즈]",
+   "from": "2026-11-19",
+   "to": "2026-11-19",
+   "venue": "퍼플노이즈 라이브홀 (퍼플노이즈 라이브홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "(사)한국음악레이블산업협회",
+   "times": "목요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305236_261103_123914.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 22,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 22000
+     }
+    ],
+    "min": 22000,
+    "max": 22000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "2TM(우리은행)",
+     "url": "https://www.2tm.co.kr/ticket/11002"
     }
    ]
   },
@@ -27805,6 +28193,40 @@
    ]
   },
   {
+   "id": "PF305249",
+   "name": "아시아 디제이 페스티벌 (Asia Dj Festival) [포항]",
+   "from": "2026-11-20",
+   "to": "2026-11-20",
+   "venue": "영일대장미원 (특설무대 )",
+   "area": "경상북도",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "5시간",
+   "age": "전체 관람가",
+   "host": "(재)포항문화재단",
+   "times": "금요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305249_261103_131708.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66694"
+    }
+   ]
+  },
+  {
    "id": "PF304886",
    "name": "nib.archive 겨울 단독공연: winter of nib",
    "from": "2026-11-20",
@@ -28078,6 +28500,10 @@
     "free": false
    },
    "booking": [
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=4&p_new=&start2=0&page_no2=1&p_idx=14147"
+    },
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013554"
@@ -28594,6 +29020,40 @@
    ]
   },
   {
+   "id": "PF305263",
+   "name": "김현철의 클래식 무곡 [산청]",
+   "from": "2026-11-20",
+   "to": "2026-11-20",
+   "venue": "산청문화예술회관 (대공연장)",
+   "area": "경상남도",
+   "genre": "서양음악(클래식)",
+   "cast": "김현철, 김판주, 오의영, 김혜원, 김대민, 김채은 등",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "산청군청",
+   "times": "금요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305263_261103_134817.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015779"
+    }
+   ]
+  },
+  {
    "id": "PF305133",
    "name": "제306회 수원시립교향악단 정기연주회 [수원]",
    "from": "2026-11-20",
@@ -28725,6 +29185,40 @@
     {
      "name": "세종문화회관",
      "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37694&menuNo=1200007"
+    }
+   ]
+  },
+  {
+   "id": "PF304947",
+   "name": "밤의 음악정원, 클래식을 넘어선 리코더 [대전]",
+   "from": "2026-11-20",
+   "to": "2026-11-20",
+   "venue": "음악정원홀  (음악정원홀 )",
+   "area": "대전광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "문예림, 유서현, 이은별, 서동주",
+   "runtime": "1시간",
+   "age": "만 7세 이상",
+   "host": "음악정원홀",
+   "times": "금요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304947_261030_141727.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1684115"
     }
    ]
   },
@@ -29201,6 +29695,56 @@
    ]
   },
   {
+   "id": "PF302075",
+   "name": "제27회 서울바로크싱어즈 정기연주회",
+   "from": "2026-11-20",
+   "to": "2026-11-20",
+   "venue": "예술의전당 [서울] (콘서트홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "강기성, 박미자, 박준석, 최희윤 등",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "서울바로크싱어즈",
+   "times": "금요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302075_260930_110854.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 100,000원, S석 70,000원, A석 50,000원, B석 30,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 100000
+     },
+     {
+      "grade": "S석",
+      "price": 70000
+     },
+     {
+      "grade": "A석",
+      "price": 50000
+     },
+     {
+      "grade": "B석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 100000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008944"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60491"
+    }
+   ]
+  },
+  {
    "id": "PF302005",
    "name": "안드레아 쉐니에 [전주]",
    "from": "2026-11-20",
@@ -29453,6 +29997,116 @@
     {
      "name": "인천문화예술회관",
      "url": "https://www.incheon.go.kr/art/ART010104/view?resveProgrmSeCode=C&resveGroupSn=5&progrmSn=10661"
+    }
+   ]
+  },
+  {
+   "id": "PF305292",
+   "name": "FLIP PLAY VOL.7",
+   "from": "2026-11-21",
+   "to": "2026-11-21",
+   "venue": "아스트라홀 (아스트라홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "4시간 40분",
+   "age": "전체 관람가",
+   "host": "FLIP PRODUCTION",
+   "times": "토요일(13:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305292_261103_145800.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 25,000원, 현장판매 30,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 25000
+     },
+     {
+      "grade": "현장판매",
+      "price": 30000
+     }
+    ],
+    "min": 25000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4331"
+    }
+   ]
+  },
+  {
+   "id": "PF305268",
+   "name": "스트레이 단독 콘서트: 늦은 가을",
+   "from": "2026-11-21",
+   "to": "2026-11-21",
+   "venue": "살롱 문보우 (살롱 문보우)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "이정환",
+   "runtime": "1시간 40분",
+   "age": "전체 관람가",
+   "host": "레브실용음악학원",
+   "times": "토요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305268_261103_135737.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 66,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 66000
+     }
+    ],
+    "min": 66000,
+    "max": 66000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214212"
+    }
+   ]
+  },
+  {
+   "id": "PF305212",
+   "name": "이디피 EDP: EXIT TUNES Dance Production [서울]",
+   "from": "2026-11-21",
+   "to": "2026-11-21",
+   "venue": "무신사 개러지 (구. 왓챠홀) (무신사 개러지 (구. 왓챠홀) )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "5시간",
+   "age": "만 15세 이상",
+   "host": "ESPITZ MUSIC, GAME PLAZA",
+   "times": "토요일(14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305212_261103_111023.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 179,000원, 일반석 129,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 179000
+     },
+     {
+      "grade": "일반석",
+      "price": 129000
+     }
+    ],
+    "min": 129000,
+    "max": 179000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "29CM",
+     "url": "https://ticket.29cm.co.kr/catalog/4264694"
     }
    ]
   },
@@ -30176,7 +30830,7 @@
    "booking": [
     {
      "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014859"
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26017585"
     }
    ]
   },
@@ -30657,48 +31311,6 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013171"
-    }
-   ]
-  },
-  {
-   "id": "PF301756",
-   "name": "손승연 Fan Concert: HIGHLIGHT",
-   "from": "2026-11-21",
-   "to": "2026-11-21",
-   "venue": "성신여자대학교 운정그린캠퍼스 (대강당)",
-   "area": "서울특별시",
-   "genre": "대중음악",
-   "cast": "손승연",
-   "runtime": "2시간",
-   "age": "만 7세 이상",
-   "host": "(주)스포이엔티",
-   "times": "토요일(18:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301756_260928_123438.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 121,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 121000
-     }
-    ],
-    "min": 121000,
-    "max": 121000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/65863"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1743360"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013668"
     }
    ]
   },
@@ -31987,6 +32599,10 @@
      "url": "https://ticket.yes24.com/Perf/60234"
     },
     {
+     "name": "카카오톡예약하기",
+     "url": "https://booking.kakao.com/detail/ticket/766946"
+    },
+    {
      "name": "클립서비스주식회사",
      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79437"
     }
@@ -32791,6 +33407,40 @@
     {
      "name": "부산문화/시민회관((재)부산문화회관)",
      "url": "https://www.bscc.or.kr/01_perfor/?mcode=0401010200&mode=2&no=26451"
+    }
+   ]
+  },
+  {
+   "id": "PF305255",
+   "name": "대한민국 작곡제전, 귀환: 김순남 피아노 협주곡 [제주]",
+   "from": "2026-11-21",
+   "to": "2026-11-21",
+   "venue": "제주아트센터 (대극장)",
+   "area": "제주특별자치도",
+   "genre": "서양음악(클래식)",
+   "cast": "박승유, 한지호 등",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "제주아트센터, 현대문화기획",
+   "times": "토요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305255_261103_132509.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 5,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 5000
+     }
+    ],
+    "min": 5000,
+    "max": 5000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "제주아트센터",
+     "url": "https://www.jejusi.go.kr/acenter/show/perf/view.do?showId=1726"
     }
    ]
   },
@@ -34009,6 +34659,112 @@
     {
      "name": "세종문화회관",
      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=36681&menuNo=200320"
+    }
+   ]
+  },
+  {
+   "id": "PF305231",
+   "name": "DORI 단독 공연: Melotherapy",
+   "from": "2026-11-22",
+   "to": "2026-11-22",
+   "venue": "스페이스브릭 (SPACE BRICK) (스페이스브릭 (SPACE BRICK) )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "1시간 30분",
+   "age": "만 11세 이상",
+   "host": "",
+   "times": "일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305231_261103_121451.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 66,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 66000
+     }
+    ],
+    "min": 66000,
+    "max": 66000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214195"
+    }
+   ]
+  },
+  {
+   "id": "PF305217",
+   "name": "숲세권 라이브: 장키키의 토마토숲 비밀공방",
+   "from": "2026-11-22",
+   "to": "2026-11-22",
+   "venue": "숲세권 라이브 카인드스퀘어점  (숲세권 라이브 카인드스퀘어점 )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "장아린",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "폰드메이커스",
+   "times": "일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305217_261103_112528.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 44,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 44000
+     }
+    ],
+    "min": 44000,
+    "max": 44000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214186"
+    }
+   ]
+  },
+  {
+   "id": "PF305205",
+   "name": "Again Festa!, 이동현밴드 X 덕호씨밴드 (DHB) X 바미",
+   "from": "2026-11-22",
+   "to": "2026-11-22",
+   "venue": "우무지 (우무지)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "전덕호, 이동현, 전희선, 김엘리사, 차현호, 오준엽 등",
+   "runtime": "2시간 30분",
+   "age": "전체 관람가",
+   "host": "(사) 코드(우무지)",
+   "times": "일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305205_261103_105351.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 40,000원, 사전예약 35,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 40000
+     },
+     {
+      "grade": "사전예약",
+      "price": 35000
+     }
+    ],
+    "min": 35000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214210"
     }
    ]
   },
@@ -35323,6 +36079,40 @@
    ]
   },
   {
+   "id": "PF305202",
+   "name": "소리랑아이랑 디즈니 & 지브리 애니메이션 음악회",
+   "from": "2026-11-22",
+   "to": "2026-11-22",
+   "venue": "안단테음악학원 (안단테음악학원(2F))",
+   "area": "충청북도",
+   "genre": "서양음악(클래식)",
+   "cast": "",
+   "runtime": "50분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "일요일(14:00,15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305202_261103_104517.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "어린이+ 보호자 40,000원",
+    "tiers": [
+     {
+      "grade": "어린이+ 보호자",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1601818"
+    }
+   ]
+  },
+  {
    "id": "PF305150",
    "name": "만나필하모닉 윈드오케스트라: 가을 그리고 흥을 품다",
    "from": "2026-11-22",
@@ -35701,6 +36491,44 @@
    ]
   },
   {
+   "id": "PF304009",
+   "name": "일요, 마티네 콘서트: Colorful & Color Flow Dear. SM",
+   "from": "2026-11-22",
+   "to": "2026-11-22",
+   "venue": "콘서트홀 나누 (콘서트홀 나누)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "정선화, 최유림, 은정빈, 최문영",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "콘서트홀 나누",
+   "times": "일요일(18:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304009_261021_133921.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 27,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 27000
+     }
+    ],
+    "min": 27000,
+    "max": 27000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1269745"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015108"
+    }
+   ]
+  },
+  {
    "id": "PF303947",
    "name": "제3회 앙상블구도 정기연주회 [부산]",
    "from": "2026-11-22",
@@ -35773,6 +36601,40 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014558"
+    }
+   ]
+  },
+  {
+   "id": "PF303570",
+   "name": "제7회 이지피아노음악연구협회 (E.P.A) 정기연주회: 두 대의 피아노, 브람스를 말하다 [대구]",
+   "from": "2026-11-22",
+   "to": "2026-11-22",
+   "venue": "대구문화예술회관 (비슬홀)",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "박누리, 조우태, 김반석, 김리윤, 심성화, 차예진, 구효정 등",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "host": "이지클래식예술기획(EZ CLASSIC)",
+   "times": "일요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303570_261103_164744.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66237"
     }
    ]
   },
@@ -36241,7 +37103,45 @@
    "booking": [
     {
      "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014539"
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015707"
+    }
+   ]
+  },
+  {
+   "id": "PF305218",
+   "name": "단종, 1698 [영월]",
+   "from": "2026-11-23",
+   "to": "2026-11-23",
+   "venue": "영월군문화예술회관 (영월군문화예술회관)",
+   "area": "강원특별자치도",
+   "genre": "뮤지컬",
+   "cast": "이현재, 안리나, 김하준, 김유성, 김찬휘, 유선후, 최영진 등",
+   "runtime": "2시간 25분",
+   "age": "전체 관람가",
+   "host": "(주)에이치제이컬쳐(HJ컬쳐), (주)에이치제이컬쳐(HJ컬쳐)",
+   "times": "월요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305218_261103_112529.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015717"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60916"
     }
    ]
   },
@@ -36710,6 +37610,40 @@
    ]
   },
   {
+   "id": "PF305223",
+   "name": "제100회 예술공감, 클래식라디오: 시대를 빛낸 영화음악 [부산]",
+   "from": "2026-11-24",
+   "to": "2026-11-24",
+   "venue": "을숙도문화회관 (소공연장)",
+   "area": "부산광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "박지혜, 정희보, 이명한, 정혜민, 김충만, 신요한, 주현우",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "host": "",
+   "times": "화요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305223_261103_113113.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "을숙도문화회관",
+     "url": "https://esd.moonhwain.net:451/rsvc/rsv_pm.html?b_id=esd&p_idx=446"
+    }
+   ]
+  },
+  {
    "id": "PF304891",
    "name": "오케스트라가 들려주는 조금은 특별한 피노키오 [부산]",
    "from": "2026-11-24",
@@ -37019,6 +37953,44 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011991"
+    }
+   ]
+  },
+  {
+   "id": "PF305359",
+   "name": "AZITO PLAY, 남장",
+   "from": "2026-11-25",
+   "to": "2026-11-25",
+   "venue": "아지토 라이브 홀 (라이브 홀 )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 40분",
+   "age": "전체 관람가",
+   "host": "아지토(AZITO)",
+   "times": "수요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305359_261103_163745.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 20,000원, 현장판매 25,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 20000
+     },
+     {
+      "grade": "현장판매",
+      "price": 25000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4233"
     }
    ]
   },
@@ -37809,56 +38781,6 @@
     {
      "name": "엔티켓",
      "url": "https://www.enticket.com:469/pfm/sub01_view.html?p_idx=4338"
-    }
-   ]
-  },
-  {
-   "id": "PF300453",
-   "name": "차이콥스키의 낭만",
-   "from": "2026-11-25",
-   "to": "2026-11-25",
-   "venue": "예술의전당 [서울] (콘서트홀)",
-   "area": "서울특별시",
-   "genre": "서양음악(클래식)",
-   "cast": "김정원, 여자경 등",
-   "runtime": "2시간",
-   "age": "만 7세 이상",
-   "host": "(주)토마토클래식",
-   "times": "수요일(19:30)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300453_260909_112430.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 150,000원, S석 120,000원, A석 80,000원, B석 50,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 150000
-     },
-     {
-      "grade": "S석",
-      "price": 120000
-     },
-     {
-      "grade": "A석",
-      "price": 80000
-     },
-     {
-      "grade": "B석",
-      "price": 50000
-     }
-    ],
-    "min": 50000,
-    "max": 150000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012889"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/60070"
     }
    ]
   },
@@ -39447,6 +40369,40 @@
    ]
   },
   {
+   "id": "PF305187",
+   "name": "사랑방 금요일 상상극장, 겨울의 문턱에서 [인천]",
+   "from": "2026-11-27",
+   "to": "2026-11-27",
+   "venue": "부평문화사랑방 (부평문화사랑방)",
+   "area": "인천광역시",
+   "genre": "대중음악",
+   "cast": "박주홍, 강예은, 김동현, 김상일, 양정주",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "(재)인천광역시 부평구문화재단(부평아트센터)",
+   "times": "금요일(19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305187_261103_100144.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015698"
+    }
+   ]
+  },
+  {
    "id": "PF305042",
    "name": "UNDERCITY, presents Wata Igarashi",
    "from": "2026-11-27",
@@ -40015,6 +40971,40 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013791"
+    }
+   ]
+  },
+  {
+   "id": "PF305283",
+   "name": "제40회 서울성악아카데미 정기연주회",
+   "from": "2026-11-27",
+   "to": "2026-11-27",
+   "venue": "꿈의숲아트센터 (콘서트홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "김길수, 송영옥, 김혜영, 김강미, 박성진, 박준서, 김윤경 등",
+   "runtime": "1시간 20분",
+   "age": "만 6세 이상",
+   "host": "봄컬처 (BomCulture)",
+   "times": "금요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305283_261103_143124.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "세종문화회관",
+     "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37820&menuNo=1200007"
     }
    ]
   },
@@ -40925,6 +41915,146 @@
    ]
   },
   {
+   "id": "PF305297",
+   "name": "CUSE HACKER 2ND RELEASE EVENT",
+   "from": "2026-11-28",
+   "to": "2026-11-28",
+   "venue": "웨스트브릿지 라이브홀 (웨스트브릿지 라이브홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "5시간 20분",
+   "age": "전체 관람가",
+   "host": "FLIP PRODUCTION",
+   "times": "토요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305297_261103_150943.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 30,000원, 사전예약 25,000원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 30000
+     },
+     {
+      "grade": "사전예약",
+      "price": 25000
+     }
+    ],
+    "min": 25000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4362"
+    }
+   ]
+  },
+  {
+   "id": "PF305275",
+   "name": "한해 데뷔 15주년 기념 콘서트: 15 Vintage",
+   "from": "2026-11-28",
+   "to": "2026-11-29",
+   "venue": "연남장 (연남장)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "정한해",
+   "runtime": "1시간 40분",
+   "age": "만 18세 이상",
+   "host": "",
+   "times": "토요일(18:00), 일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305275_261103_141049.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "스탠딩석  99,000원",
+    "tiers": [
+     {
+      "grade": "스탠딩석",
+      "price": 99000
+     }
+    ],
+    "min": 99000,
+    "max": 99000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66709"
+    }
+   ]
+  },
+  {
+   "id": "PF305195",
+   "name": "백양문화예술회관 기획공연: 우수버스커 내꺼 DAY [부산]",
+   "from": "2026-11-28",
+   "to": "2026-11-28",
+   "venue": "백양문화예술회관 (공연장)",
+   "area": "부산광역시",
+   "genre": "대중음악",
+   "cast": "이재규, 박지훈 등",
+   "runtime": "1시간 40분",
+   "age": "전체 관람가",
+   "host": "(재) 부산진문화재단(백양문화예술회관)",
+   "times": "토요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305195_261103_102450.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1768581"
+    }
+   ]
+  },
+  {
+   "id": "PF305193",
+   "name": "W3WAY (위웨이) 콘서트, PATHFINDER: OUR WAY",
+   "from": "2026-11-28",
+   "to": "2026-11-28",
+   "venue": "나루아트센터 (대공연장)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "2시간",
+   "age": "전체 관람가",
+   "host": "나인투 엔터테인먼트(NINE TWO ENTERTAINMENT)",
+   "times": "토요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305193_261103_101715.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 55,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 55000
+     }
+    ],
+    "min": 55000,
+    "max": 55000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214211"
+    }
+   ]
+  },
+  {
    "id": "PF305137",
    "name": "김종국 콘서트: EDITION 국룰 [성남]",
    "from": "2026-11-28",
@@ -41481,6 +42611,10 @@
      "url": "https://booking.naver.com/booking/12/bizes/1748873"
     },
     {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015627"
+    },
+    {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60439"
     }
@@ -41709,40 +42843,6 @@
     {
      "name": "멜론티켓",
      "url": "https://ticket.melon.com/performance/index.htm?prodId=213944"
-    }
-   ]
-  },
-  {
-   "id": "PF301740",
-   "name": "RAMPAGE FEST",
-   "from": "2026-11-28",
-   "to": "2026-11-28",
-   "venue": "동원아이피  (동원아이피  )",
-   "area": "서울특별시",
-   "genre": "대중음악",
-   "cast": "",
-   "runtime": "10시간",
-   "age": "전체 관람가",
-   "host": "",
-   "times": "토요일(13:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301740_260928_112629.jpg",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 80,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 80000
-     }
-    ],
-    "min": 80000,
-    "max": 80000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/5/bizes/1728396"
     }
    ]
   },
@@ -42327,6 +43427,74 @@
    ]
   },
   {
+   "id": "PF305229",
+   "name": "제2회 뮤지컬아! 놀자!, 헤어스프레이 [부산]",
+   "from": "2026-11-28",
+   "to": "2026-11-28",
+   "venue": "을숙도문화회관 (소공연장)",
+   "area": "부산광역시",
+   "genre": "뮤지컬",
+   "cast": "이윤하, 허다영, 이세림, 김수휘",
+   "runtime": "50분",
+   "age": "만 4세 이상",
+   "host": "",
+   "times": "토요일(14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305229_261103_115029.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "을숙도문화회관",
+     "url": "https://esd.moonhwain.net:451/rsvc/rsv_pm.html?b_id=esd&p_idx=447"
+    }
+   ]
+  },
+  {
+   "id": "PF305210",
+   "name": "바다의 불빛 [인천]",
+   "from": "2026-11-28",
+   "to": "2026-11-29",
+   "venue": "트라이보울 (공연장 (2층) )",
+   "area": "인천광역시",
+   "genre": "뮤지컬",
+   "cast": "황윤제, 김명희, 이현선, 이병철, 두창혁, 유도현, 최승규 등",
+   "runtime": "1시간 30분",
+   "age": "만 13세 이상",
+   "host": "극단 열정, 엠투에이치",
+   "times": "토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305210_261103_110533.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "플레이티켓",
+     "url": "https://playticket.co.kr/nav/detail.html?idx=4753"
+    }
+   ]
+  },
+  {
    "id": "PF305104",
    "name": "광화문 연가 [경주]",
    "from": "2026-11-28",
@@ -42487,6 +43655,10 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1752384"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014671"
     }
    ]
   },
@@ -43219,6 +44391,35 @@
    ]
   },
   {
+   "id": "PF305209",
+   "name": "CSO (Coupang Symphony Orchestra) 창단 연주회",
+   "from": "2026-11-28",
+   "to": "2026-11-28",
+   "venue": "꿈의숲아트센터 (콘서트홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "김준옥, 이연주 등",
+   "runtime": "1시간 45분",
+   "age": "만 2세 이상",
+   "host": "",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305209_261103_110331.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석무료",
+    "tiers": [],
+    "min": 0,
+    "max": 0,
+    "free": true
+   },
+   "booking": [
+    {
+     "name": "세종문화회관",
+     "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37816&menuNo=1200007"
+    }
+   ]
+  },
+  {
    "id": "PF305103",
    "name": "누구나 꿈나무오케스트라 정기연주회",
    "from": "2026-11-28",
@@ -43307,6 +44508,44 @@
     {
      "name": "엔티켓",
      "url": "https://www.enticket.com:469/pfm/sub01_view.html?p_idx=4482"
+    }
+   ]
+  },
+  {
+   "id": "PF304767",
+   "name": "알리오페라단 키즈오페라페스타, 놀부와 흥부 [청주]",
+   "from": "2026-11-28",
+   "to": "2026-11-28",
+   "venue": "청주예술의전당 (대공연장)",
+   "area": "충청북도",
+   "genre": "서양음악(클래식)",
+   "cast": "박종상, 정지민, 김하늘, 엄강욱, 황승현, 한지혜",
+   "runtime": "1시간 10분",
+   "age": "전체 관람가",
+   "host": "알리오페라단",
+   "times": "토요일(15:00,18:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304767_261028_164635.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 20,000원, S석 15,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 20000
+     },
+     {
+      "grade": "S석",
+      "price": 15000
+     }
+    ],
+    "min": 15000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1764306"
     }
    ]
   },
@@ -45578,6 +46817,44 @@
    ]
   },
   {
+   "id": "PF305351",
+   "name": "META FES VOL.62",
+   "from": "2026-11-30",
+   "to": "2026-11-30",
+   "venue": "아틀리에홀 (아틀리에홀 (B1) )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간 50분",
+   "age": "전체 관람가",
+   "host": "META WAVE",
+   "times": "월요일(18:50)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305351_261103_162030.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 20,000원, 현장판매 25,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 20000
+     },
+     {
+      "grade": "현장판매",
+      "price": 25000
+     }
+    ],
+    "min": 20000,
+    "max": 25000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "아지토",
+     "url": "https://azito.kr/genba/4361"
+    }
+   ]
+  },
+  {
    "id": "PF304952",
    "name": "강지연 비올라 다 감바 & 바로크 첼로 독주회",
    "from": "2026-11-30",
@@ -47399,6 +48676,44 @@
    ]
   },
   {
+   "id": "PF305197",
+   "name": "Super Rookie Challenge: Vocal Seaeon 1, Round 3",
+   "from": "2026-12-04",
+   "to": "2026-12-04",
+   "venue": "프리즘홀 (프리즘플러스) (프리즘홀 (프리즘플러스) )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "3시간",
+   "age": "전체 관람가",
+   "host": "(주) 셰르파뮤직 SHERPA MUSIC",
+   "times": "금요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305197_261103_102953.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "사전예약 15,000원, 현장판매 20,000원",
+    "tiers": [
+     {
+      "grade": "사전예약",
+      "price": 15000
+     },
+     {
+      "grade": "현장판매",
+      "price": 20000
+     }
+    ],
+    "min": 15000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "2TM(우리은행)",
+     "url": "https://www.2tm.co.kr/ticket/10982"
+    }
+   ]
+  },
+  {
    "id": "PF305076",
    "name": "남유선 The Moments of Life 발매 기념공연",
    "from": "2026-12-04",
@@ -47913,6 +49228,44 @@
    ]
   },
   {
+   "id": "PF304115",
+   "name": "아기돼지 삼형제 [고양]",
+   "from": "2026-12-04",
+   "to": "2026-12-06",
+   "venue": "현대백화점 문화홀 [킨텍스] (문화홀 (9층))",
+   "area": "경기도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "55분",
+   "age": "24개월 이상",
+   "host": "",
+   "times": "금요일(14:00,16:00), 토요일 ~ 일요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304115_261022_104948.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1761197"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60722"
+    }
+   ]
+  },
+  {
    "id": "PF303912",
    "name": "쉐도우 [인천]",
    "from": "2026-12-04",
@@ -48157,6 +49510,48 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1741891"
+    }
+   ]
+  },
+  {
+   "id": "PF305273",
+   "name": "제531회 대구시립교향악단 정기연주회: 무소륵스키 & 라벨",
+   "from": "2026-12-04",
+   "to": "2026-12-04",
+   "venue": "대구콘서트하우스 (그랜드홀 (대공연장) )",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "백진현, 셩 차이",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "host": "대구문화예술회관",
+   "times": "금요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305273_261103_140753.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 30,000원, S석 16,000원, H석 10,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 30000
+     },
+     {
+      "grade": "S석",
+      "price": 16000
+     },
+     {
+      "grade": "H석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015516"
     }
    ]
   },
@@ -48477,6 +49872,40 @@
     {
      "name": "인천문화예술회관",
      "url": "https://incheon9.moonhwain.net/rsvc/rsv_pm.html?b_id=incheon&p_idx=966"
+    }
+   ]
+  },
+  {
+   "id": "PF305260",
+   "name": "DAILY: DIRECTION 1st FAN: CON: SUN: DAY CLUB: ORIENTATION",
+   "from": "2026-12-05",
+   "to": "2026-12-05",
+   "venue": "XSCALA(엑스칼라) (공연장)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "(주)티엠이그룹(TME Group) (구. 하이그라운드)",
+   "times": "토요일(14:00,19:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305260_261103_134356.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 110,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 110000
+     }
+    ],
+    "min": 110000,
+    "max": 110000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015519"
     }
    ]
   },
@@ -49015,6 +50444,10 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1748875"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015626"
     },
     {
      "name": "예스24",
@@ -50793,6 +52226,108 @@
    ]
   },
   {
+   "id": "PF298237",
+   "name": "털이 뭐길래 [영암]",
+   "from": "2026-12-05",
+   "to": "2026-12-05",
+   "venue": "한국트로트가요센터 (한국트로트가요센터)",
+   "area": "전남광주통합특별시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 10분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "토요일(14:00,17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298237_260811_135148.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 10,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 10000
+     }
+    ],
+    "min": 10000,
+    "max": 10000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "영암군청",
+     "url": "https://yeongam.moonhwain.kr/rsvc/rsv_pm.html?b_id=yeongam&p_idx=17"
+    }
+   ]
+  },
+  {
+   "id": "PF305234",
+   "name": "제43회 대덕오케스트라 정기연주회",
+   "from": "2026-12-05",
+   "to": "2026-12-05",
+   "venue": "대전예술의전당 (아트홀)",
+   "area": "대전광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "김강훈, 권오현, 홍승아 등",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "host": "피아트(P-ART) [대전]",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305234_261103_123221.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015723"
+    }
+   ]
+  },
+  {
+   "id": "PF305206",
+   "name": "윤염광 바이올린 독주회",
+   "from": "2026-12-05",
+   "to": "2026-12-05",
+   "venue": "예술의전당 [서울] (리사이틀홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "윤염광, 문정재",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "JS Classic(제이에스 클래식)",
+   "times": "토요일(14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305206_261103_105512.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015657"
+    }
+   ]
+  },
+  {
    "id": "PF305064",
    "name": "김영진 피아노 독주회: 23번째 피아노 이야기: 건반 위의 산책",
    "from": "2026-12-05",
@@ -51679,44 +53214,6 @@
    ]
   },
   {
-   "id": "PF304712",
-   "name": "프라이빗컬렉션: 시인을 위하여 단독 콘서트",
-   "from": "2026-12-06",
-   "to": "2026-12-06",
-   "venue": "우무지 (우무지)",
-   "area": "서울특별시",
-   "genre": "대중음악",
-   "cast": "신승헌, 신경우, 이범희",
-   "runtime": "1시간 30분",
-   "age": "전체 관람가",
-   "host": "(사) 코드(우무지)",
-   "times": "일요일(17:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304712_261028_141834.png",
-   "state": "공연예정",
-   "price": {
-    "raw": "전석 44,000원, 현장판매 55,000원",
-    "tiers": [
-     {
-      "grade": "전석",
-      "price": 44000
-     },
-     {
-      "grade": "현장판매",
-      "price": 55000
-     }
-    ],
-    "min": 44000,
-    "max": 55000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "멜론티켓",
-     "url": "https://ticket.melon.com/performance/index.htm?prodId=214169"
-    }
-   ]
-  },
-  {
    "id": "PF304271",
    "name": "KNK 10th ANNIVERSARY CONCERT: 10VE DAY [서울]",
    "from": "2026-12-06",
@@ -52595,6 +54092,40 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015666"
+    }
+   ]
+  },
+  {
+   "id": "PF304490",
+   "name": "임현정 귀국 피아노 독주회",
+   "from": "2026-12-06",
+   "to": "2026-12-06",
+   "venue": "금호아트홀 연세 (금호아트홀 연세)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "임현정",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "(주) 프로아트매니지먼트(프로아트엔터테인먼트)",
+   "times": "일요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304490_261026_151459.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015431"
     }
    ]
   },
@@ -53779,6 +55310,40 @@
    ]
   },
   {
+   "id": "PF305188",
+   "name": "김민정 귀국 피아노 독주회",
+   "from": "2026-12-09",
+   "to": "2026-12-09",
+   "venue": "금호아트홀 연세 (금호아트홀 연세)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "김민정",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "이든예술기획(주)",
+   "times": "수요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305188_261103_100536.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015700"
+    }
+   ]
+  },
+  {
    "id": "PF305067",
    "name": "이윤희 & 김소희 피아노 듀오 리사이틀 Ⅳ. A Journey Through the Russi: Russian Kaleidoscope",
    "from": "2026-12-09",
@@ -54385,6 +55950,74 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/58870"
+    }
+   ]
+  },
+  {
+   "id": "PF305278",
+   "name": "홍이삭 소극장 콘서트: 결",
+   "from": "2026-12-11",
+   "to": "2026-12-27",
+   "venue": "이화여자대학교 영산극장 (이화여자대학교 영산극장)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "홍이삭",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "host": "아카이브아침(Archive Achim), 엔에이치엔링크(주), 엔에이치엔링크(주)",
+   "times": "목요일 ~ 금요일(20:00), 토요일 ~ 일요일(17:00), HOL(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305278_261103_142051.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 121,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 121000
+     }
+    ],
+    "min": 121000,
+    "max": 121000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66486"
+    }
+   ]
+  },
+  {
+   "id": "PF305243",
+   "name": "박학기 콘서트: 계절학기",
+   "from": "2026-12-11",
+   "to": "2026-12-11",
+   "venue": "롤링홀 (롤링홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "박학기",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "민트박스",
+   "times": "금요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305243_261103_125827.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 88,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 88000
+     }
+    ],
+    "min": 88000,
+    "max": 88000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015676"
     }
    ]
   },
@@ -55342,6 +56975,40 @@
    ]
   },
   {
+   "id": "PF305213",
+   "name": "유리상자 콘서트: 마흔 네 번째 사랑담기",
+   "from": "2026-12-12",
+   "to": "2026-12-12",
+   "venue": "롤링홀 (롤링홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "박승진, 이세준",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "민트박스",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305213_261103_111203.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 88,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 88000
+     }
+    ],
+    "min": 88000,
+    "max": 88000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015660"
+    }
+   ]
+  },
+  {
    "id": "PF305140",
    "name": "김나영 콘서트: Na On The Voice: 우리, 마침내 이곳에 [부산]",
    "from": "2026-12-12",
@@ -55770,6 +57437,56 @@
     {
      "name": "NHN티켓링크",
      "url": "https://www.ticketlink.co.kr/product/66181"
+    }
+   ]
+  },
+  {
+   "id": "PF303557",
+   "name": "백지영 전국투어 콘서트: 백일몽 [부산]",
+   "from": "2026-12-12",
+   "to": "2026-12-12",
+   "venue": "부산시민회관 (대극장)",
+   "area": "부산광역시",
+   "genre": "대중음악",
+   "cast": "백지영",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)밝은누리, (주)제이제이팩토리, (주)트라이어스엔터테인먼트",
+   "times": "토요일(18:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303557_261103_165047.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 165,000원, R석 143,000원, S석 121,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 165000
+     },
+     {
+      "grade": "R석",
+      "price": 143000
+     },
+     {
+      "grade": "S석",
+      "price": 121000
+     }
+    ],
+    "min": 121000,
+    "max": 165000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66274"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1757058"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014662"
     }
    ]
   },
@@ -57418,6 +59135,94 @@
    ]
   },
   {
+   "id": "PF300663",
+   "name": "호두까기인형 [서울 서대문]",
+   "from": "2026-12-12",
+   "to": "2026-12-12",
+   "venue": "서대문문화체육회관 (대극장)",
+   "area": "서울특별시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "24개월 이상",
+   "host": "",
+   "times": "토요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300663_260911_105941.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원, 사전예약 15,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     },
+     {
+      "grade": "사전예약",
+      "price": 15000
+     }
+    ],
+    "min": 15000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/65561"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1735365"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013147"
+    }
+   ]
+  },
+  {
+   "id": "PF300549",
+   "name": "집사TV 시즌2, Part.2: 대저택 끝 없는 문 [천안]",
+   "from": "2026-12-12",
+   "to": "2026-12-13",
+   "venue": "천안시성환문화회관 (대공연장)",
+   "area": "충청남도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 10분",
+   "age": "24개월 이상",
+   "host": "(주)마당플레이웍스, (주)마당플레이웍스",
+   "times": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300549_260910_101250.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 70,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 70000
+     }
+    ],
+    "min": 70000,
+    "max": 70000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/65525"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1734672"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013114"
+    }
+   ]
+  },
+  {
    "id": "PF299986",
    "name": "로봇 특공대 [제주 서귀포]",
    "from": "2026-12-12",
@@ -57528,6 +59333,44 @@
    ]
   },
   {
+   "id": "PF294408",
+   "name": "겨울왕국: 겨울이야기 [서울 양천]",
+   "from": "2026-12-12",
+   "to": "2026-12-13",
+   "venue": "양천문화회관 (대극장)",
+   "area": "서울특별시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294408_260623_112740.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 50,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 50000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1678923"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008881"
+    }
+   ]
+  },
+  {
    "id": "PF294327",
    "name": "엄마까투리: 유치원도, 도시도 처음이야 [부천]",
    "from": "2026-12-12",
@@ -57566,6 +59409,44 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008880"
+    }
+   ]
+  },
+  {
+   "id": "PF305259",
+   "name": "조희창의 토요 클래식 살롱 Ⅵ. 비엔나의 추억 [경주]",
+   "from": "2026-12-12",
+   "to": "2026-12-12",
+   "venue": "경주예술의전당 (소공연장(원화홀))",
+   "area": "경상북도",
+   "genre": "서양음악(클래식)",
+   "cast": "조희창, 신미정, 박상욱, 안민수",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "(재) 경주문화재단(경주예술의전당)",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305259_261103_133801.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66603"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1766047"
     }
    ]
   },
@@ -58233,6 +60114,48 @@
    ]
   },
   {
+   "id": "PF305271",
+   "name": "플라워 단독 콘서트 [서울]",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "GB가빈아트홀 (GB가빈아트홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "고한규, 김선원, 고성진",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)인타임 엔터테인먼트, 제스엔터테인먼트",
+   "times": "일요일(16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305271_261103_140344.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 109,000원, R석 89,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 109000
+     },
+     {
+      "grade": "R석",
+      "price": 89000
+     }
+    ],
+    "min": 89000,
+    "max": 109000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66692"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1769135"
+    }
+   ]
+  },
+  {
    "id": "PF305094",
    "name": "YOU ME DREAM CONCERT",
    "from": "2026-12-13",
@@ -58793,6 +60716,44 @@
    ]
   },
   {
+   "id": "PF302586",
+   "name": "루돌프와 산타클로스 [대전]",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "대전평송청소년문화센터 (어울림홀(소극장))",
+   "area": "대전광역시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "55분",
+   "age": "24개월 이상",
+   "host": "",
+   "times": "일요일(13:00,15:00,17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302586_261006_155539.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1742199"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60278"
+    }
+   ]
+  },
+  {
    "id": "PF302399",
    "name": "담배가게 아가씨",
    "from": "2026-12-13",
@@ -58865,6 +60826,44 @@
    ]
   },
   {
+   "id": "PF301678",
+   "name": "산타클로스와 브레멘음악대 [파주]",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "파주운정행복센터 (공연장)",
+   "area": "경기도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "24개월 이상",
+   "host": "좋은사람들",
+   "times": "일요일(14:00,16:00,18:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301678_260923_131636.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1743099"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60286"
+    }
+   ]
+  },
+  {
    "id": "PF300507",
    "name": "호두까기 인형 [제주]",
    "from": "2026-12-13",
@@ -58899,6 +60898,115 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1732279"
+    }
+   ]
+  },
+  {
+   "id": "PF298482",
+   "name": "빨간코 루돌프와 산타클로스 [여수]",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "여수시민회관 (대공연장)",
+   "area": "전남광주통합특별시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "즐겨찾기",
+   "times": "일요일(11:00,13:00,15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298482_260813_154507.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 30,000원, S석 20,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 30000
+     },
+     {
+      "grade": "S석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64892"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1715743"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011743"
+    }
+   ]
+  },
+  {
+   "id": "PF305286",
+   "name": "소프라노 이은미 리사이틀: NONOSTANTE",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "거암아트홀 (거암아트홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "이은미, 황희태",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "host": "",
+   "times": "일요일(16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305286_261103_143933.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 20,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 20000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "TINY티켓",
+     "url": "https://www.tinyticket.net/event/EVdCirl74gdu"
+    }
+   ]
+  },
+  {
+   "id": "PF305252",
+   "name": "대구소리온합창단 송년음악회",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "대구문화예술회관 (팔공홀)",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "이슬아, 김혜지, 임보람, 임지윤, 장세희, 조대철, 이기욱 등",
+   "runtime": "1시간 30분",
+   "age": "만 4세 이상",
+   "host": "대구소리온합창단",
+   "times": "일요일(18:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305252_261103_132114.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석무료",
+    "tiers": [],
+    "min": 0,
+    "max": 0,
+    "free": true
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66285"
     }
    ]
   },
@@ -59155,6 +61263,52 @@
    ]
   },
   {
+   "id": "PF299276",
+   "name": "크리스마스 영화음악 & 캐롤 FESTA [대구]",
+   "from": "2026-12-13",
+   "to": "2026-12-13",
+   "venue": "수성아트피아 (대극장 (대공연장) )",
+   "area": "대구광역시",
+   "genre": "서양음악(클래식)",
+   "cast": "백윤학, 이희주 등",
+   "runtime": "2시간",
+   "age": "만 5세 이상",
+   "host": "필뮤직 컴퍼니",
+   "times": "일요일(13:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299276_260824_162752.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 100,000원, R석 80,000원, S석 60,000원, A석 50,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 100000
+     },
+     {
+      "grade": "R석",
+      "price": 80000
+     },
+     {
+      "grade": "S석",
+      "price": 60000
+     },
+     {
+      "grade": "A석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 100000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012270"
+    }
+   ]
+  },
+  {
    "id": "PF298448",
    "name": "크리스마스 영화음악 & 캐롤 FESTA [부산]",
    "from": "2026-12-13",
@@ -59385,6 +61539,10 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1760581"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015691"
     },
     {
      "name": "타임티켓",
@@ -59821,6 +61979,40 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/57575"
+    }
+   ]
+  },
+  {
+   "id": "PF305192",
+   "name": "커피콘서트 Ⅹ. 정태춘, 박은옥: 사랑하는 이에게",
+   "from": "2026-12-16",
+   "to": "2026-12-16",
+   "venue": "인천문화예술회관 (소공연장)",
+   "area": "인천광역시",
+   "genre": "대중음악",
+   "cast": "정태춘, 박은옥",
+   "runtime": "1시간",
+   "age": "만 7세 이상",
+   "host": "인천문화예술회관",
+   "times": "수요일(14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305192_261103_101715.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 15,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 15000
+     }
+    ],
+    "min": 15000,
+    "max": 15000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "인천문화예술회관",
+     "url": "https://incheon9.moonhwain.net/rsvc/rsv_pm.html?b_id=incheon&p_idx=1010"
     }
    ]
   },
@@ -62042,6 +64234,160 @@
    ]
   },
   {
+   "id": "PF305276",
+   "name": "변진섭 전국투어 콘서트: 변천사 시즌 2.7: 타임머신 [서울 (앵콜) ]",
+   "from": "2026-12-19",
+   "to": "2026-12-19",
+   "venue": "KBS스포츠월드(아레나) (KBS아레나)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "변진섭",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)좋은콘서트, 굿초이스",
+   "times": "토요일(15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305276_261103_141347.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 132,000원, R석 110,000원, S석 99,000원, A석 88,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 132000
+     },
+     {
+      "grade": "R석",
+      "price": 110000
+     },
+     {
+      "grade": "S석",
+      "price": 99000
+     },
+     {
+      "grade": "A석",
+      "price": 88000
+     }
+    ],
+    "min": 88000,
+    "max": 132000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66706"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1769775"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015752"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60938"
+    }
+   ]
+  },
+  {
+   "id": "PF305248",
+   "name": "송년콘서트, 트롯 빅쇼 [부산]",
+   "from": "2026-12-19",
+   "to": "2026-12-19",
+   "venue": "금정문화회관 (대공연장(금빛누리홀))",
+   "area": "부산광역시",
+   "genre": "대중음악",
+   "cast": "김희재, 송민준, 설하윤",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "host": "금정문화회관",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305248_261103_131412.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 60,000원, S석 40,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 60000
+     },
+     {
+      "grade": "S석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 60000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60908"
+    }
+   ]
+  },
+  {
+   "id": "PF305220",
+   "name": "소향 X 김기태 THE GREATEST: 전율 [서울]",
+   "from": "2026-12-19",
+   "to": "2026-12-19",
+   "venue": "KBS스포츠월드(아레나) (KBS아레나)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "김소향, 김기태",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)좋은콘서트, 굿초이스",
+   "times": "토요일(20:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305220_261103_113609.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 143,000원, R석 132,000원, S석 110,000원, A석 99,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 143000
+     },
+     {
+      "grade": "R석",
+      "price": 132000
+     },
+     {
+      "grade": "S석",
+      "price": 110000
+     },
+     {
+      "grade": "A석",
+      "price": 99000
+     }
+    ],
+    "min": 99000,
+    "max": 143000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66707"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1769774"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015730"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60934"
+    }
+   ]
+  },
+  {
    "id": "PF305149",
    "name": "꿈의 숲 시즌콘서트, 신인류: Winter Blossom",
    "from": "2026-12-19",
@@ -62308,44 +64654,6 @@
     {
      "name": "엔티켓",
      "url": "https://www.enticket.com:469/pfm/sub01_view.html?pfmIng=1&p_idx=4473"
-    }
-   ]
-  },
-  {
-   "id": "PF304713",
-   "name": "하모나이즈 콘서트: Winter & Christmas with 손승연 [화성]",
-   "from": "2026-12-19",
-   "to": "2026-12-19",
-   "venue": "화성아트홀 (화성아트홀)",
-   "area": "경기도",
-   "genre": "대중음악",
-   "cast": "손승연 등",
-   "runtime": "1시간 40분",
-   "age": "만 7세 이상",
-   "host": "(재) 화성시문화관광재단",
-   "times": "토요일(17:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304713_261028_141835.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 40,000원, S석 30,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 40000
-     },
-     {
-      "grade": "S석",
-      "price": 30000
-     }
-    ],
-    "min": 30000,
-    "max": 40000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015276"
     }
    ]
   },
@@ -63938,6 +66246,48 @@
    ]
   },
   {
+   "id": "PF301384",
+   "name": "타키포오, 몬스터 전쟁의 서막: 더 좀비 [의정부]",
+   "from": "2026-12-19",
+   "to": "2026-12-20",
+   "venue": "신한대학교 벧엘관 (대강당)",
+   "area": "경기도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 5분",
+   "age": "24개월 이상",
+   "host": "마당세실극장 [대학로]",
+   "times": "토요일(11:00,14:00,16:00), 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301384_260921_123335.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 70,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 70000
+     }
+    ],
+    "min": 70000,
+    "max": 70000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1739317"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://nol.yanolja.com/ticket/products/26013333"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60193"
+    }
+   ]
+  },
+  {
    "id": "PF301272",
    "name": "3DIVA CONCERT [의정부]",
    "from": "2026-12-19",
@@ -64014,6 +66364,48 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1738866"
+    }
+   ]
+  },
+  {
+   "id": "PF300278",
+   "name": "멜로우TV: Run it up, 팀 나빠 [성남]",
+   "from": "2026-12-19",
+   "to": "2026-12-20",
+   "venue": "성남아트리움 (구. 성남시민회관) (대극장)",
+   "area": "경기도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 10분",
+   "age": "24개월 이상",
+   "host": "(주)마당플레이웍스, (주)오름기획",
+   "times": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300278_260907_135629.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 70,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 70000
+     }
+    ],
+    "min": 70000,
+    "max": 70000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/65420"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1730577"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012873"
     }
    ]
   },
@@ -64132,6 +66524,48 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1718232"
+    }
+   ]
+  },
+  {
+   "id": "PF298465",
+   "name": "빨간코 루돌프와 산타클로스 [양산]",
+   "from": "2026-12-19",
+   "to": "2026-12-19",
+   "venue": "양산문화예술회관 (대공연장)",
+   "area": "경상남도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "토요일(11:00,13:00,15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298465_260813_145927.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 30,000원, S석 20,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 30000
+     },
+     {
+      "grade": "S석",
+      "price": 20000
+     }
+    ],
+    "min": 20000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1715736"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011739"
     }
    ]
   },
@@ -65280,7 +67714,7 @@
    "cast": "",
    "runtime": "55분",
    "age": "전체 관람가",
-   "host": "",
+   "host": "아리커뮤니케이션즈",
    "times": "일요일(11:00,13:30,15:30)",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304386_261026_105212.jpg",
    "state": "공연예정",
@@ -65300,6 +67734,10 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1757610"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015182"
     }
    ]
   },
@@ -65376,6 +67814,48 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1743510"
+    }
+   ]
+  },
+  {
+   "id": "PF301883",
+   "name": "스크루지 아저씨의 크리스마스 캐롤 [부천]",
+   "from": "2026-12-20",
+   "to": "2026-12-20",
+   "venue": "복사골문화센터 (아트홀)",
+   "area": "경기도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "24개월 이상",
+   "host": "",
+   "times": "일요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301883_260928_165732.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원, 사전예약 15,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     },
+     {
+      "grade": "사전예약",
+      "price": 15000
+     }
+    ],
+    "min": 15000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/65648"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1738309"
     }
    ]
   },
@@ -65566,6 +68046,82 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1727397"
+    }
+   ]
+  },
+  {
+   "id": "PF299235",
+   "name": "아기돼지 삼형제 [포항]",
+   "from": "2026-12-20",
+   "to": "2026-12-20",
+   "venue": "포항시청 대잠홀 (포항시청 대잠홀)",
+   "area": "경상북도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "50분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "일요일(14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299235_260824_143430.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 35,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 35000
+     }
+    ],
+    "min": 35000,
+    "max": 35000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1714979"
+    }
+   ]
+  },
+  {
+   "id": "PF298441",
+   "name": "빨간코 루돌프와 산타클로스 [전주]",
+   "from": "2026-12-20",
+   "to": "2026-12-20",
+   "venue": "덕진예술회관 (덕진예술회관)",
+   "area": "전북특별자치도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "즐겨찾기",
+   "times": "일요일(11:00,13:00,15:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298441_260813_140805.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 30,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 30000
+     }
+    ],
+    "min": 30000,
+    "max": 30000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64902"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1715564"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011843"
     }
    ]
   },
@@ -66680,6 +69236,48 @@
    ]
   },
   {
+   "id": "PF298070",
+   "name": "크리스마스 영화음악 & 캐롤 콘서트 [부천]",
+   "from": "2026-12-22",
+   "to": "2026-12-22",
+   "venue": "부천아트센터 (소공연장)",
+   "area": "경기도",
+   "genre": "서양음악(클래식)",
+   "cast": "이상준, 배창훈, 박성근, 신호연, 박현우",
+   "runtime": "1시간 30분",
+   "age": "만 3세 이상",
+   "host": "스테이지M(구.프란츠스튜디오)",
+   "times": "화요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298070_260810_131328.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 40,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64669"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011293"
+    },
+    {
+     "name": "부천아트센터",
+     "url": "https://www.bac.or.kr/product/performance/253499?q=MWNjZmE4NGI1ZDA1NDE1MTkwNmI3MjEyYzE4YWU4NzQ%3d"
+    }
+   ]
+  },
+  {
    "id": "PF297869",
    "name": "콘서트 오페라, 라보엠 (La Boheme) [인천]",
    "from": "2026-12-22",
@@ -67150,6 +69748,48 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014736"
+    }
+   ]
+  },
+  {
+   "id": "PF303629",
+   "name": "류이치 사카모토 트리뷰트 콘서트 [성남]",
+   "from": "2026-12-23",
+   "to": "2026-12-23",
+   "venue": "성남아트센터 (콘서트홀)",
+   "area": "경기도",
+   "genre": "서양음악(클래식)",
+   "cast": "한주헌, 주연경, 주연선",
+   "runtime": "1시간 50분",
+   "age": "만 7세 이상",
+   "host": "㈜nothin but chill",
+   "times": "수요일(19:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303629_261016_145047.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 66,000원, S석 55,000원, A석 44,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 66000
+     },
+     {
+      "grade": "S석",
+      "price": 55000
+     },
+     {
+      "grade": "A석",
+      "price": 44000
+     }
+    ],
+    "min": 44000,
+    "max": 66000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014655"
     }
    ]
   },
@@ -68078,6 +70718,48 @@
    ]
   },
   {
+   "id": "PF298204",
+   "name": "누가 내 머리에 똥 쌌어? [세종]",
+   "from": "2026-12-24",
+   "to": "2026-12-25",
+   "venue": "비오케이아트센터(BOK아트센터) (다목적공연장)",
+   "area": "세종특별자치시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "20개월 이상",
+   "host": "극단 복주머니",
+   "times": "목요일(10:10,11:20,13:30), 금요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298204_260811_112739.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 50,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 50000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64840"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1713108"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://nol.yanolja.com/ticket/products/26011657"
+    }
+   ]
+  },
+  {
    "id": "PF304806",
    "name": "NAC@ 소프라노 조수미 리사이틀: 크리스마스의 선물 [부산]",
    "from": "2026-12-24",
@@ -68600,52 +71282,6 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60844"
-    }
-   ]
-  },
-  {
-   "id": "PF304737",
-   "name": "이무진 전국투어 콘서트, 겨울 인사: From Winter [부산]",
-   "from": "2026-12-25",
-   "to": "2026-12-26",
-   "venue": "부산시민회관 (대극장)",
-   "area": "부산광역시",
-   "genre": "대중음악",
-   "cast": "이무진",
-   "runtime": "2시간",
-   "age": "만 7세 이상",
-   "host": "(주)월드쇼마켓",
-   "times": "금요일(17:00), 토요일(16:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304737_261028_150732.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "R석 154,000원, S석 143,000원",
-    "tiers": [
-     {
-      "grade": "R석",
-      "price": 154000
-     },
-     {
-      "grade": "S석",
-      "price": 143000
-     }
-    ],
-    "min": 143000,
-    "max": 154000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/66556"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1765853"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015455"
     }
    ]
   },
@@ -70134,6 +72770,44 @@
    ]
   },
   {
+   "id": "PF301795",
+   "name": "아기돼지 삼형제 [충주]",
+   "from": "2026-12-25",
+   "to": "2026-12-25",
+   "venue": "호암예술관 (호암예술관)",
+   "area": "충청북도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "50분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "금요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301795_260928_140519.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 35,000원, 사전예약 11,900원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 35000
+     },
+     {
+      "grade": "사전예약",
+      "price": 11900
+     }
+    ],
+    "min": 11900,
+    "max": 35000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1714968"
+    }
+   ]
+  },
+  {
    "id": "PF301362",
    "name": "빨간코 루돌프와 산타클로스 [목포]",
    "from": "2026-12-25",
@@ -70252,6 +72926,52 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014801"
+    }
+   ]
+  },
+  {
+   "id": "PF301032",
+   "name": "시크릿쥬쥬: 별의보석, 잃어버린 빛을 찾아서 [대전]",
+   "from": "2026-12-25",
+   "to": "2026-12-25",
+   "venue": "대전평송청소년문화센터 (평송홀(대극장))",
+   "area": "대전광역시",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 10분",
+   "age": "24개월 이상",
+   "host": "(주) 씬앤뮤지스, (주)DS뮤지컬컴퍼니",
+   "times": "금요일(11:00,14:00,16:30)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301032_260916_105943.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 66,000원, S석 44,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 66000
+     },
+     {
+      "grade": "S석",
+      "price": 44000
+     }
+    ],
+    "min": 44000,
+    "max": 66000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/65574"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1738616"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013206"
     }
    ]
   },
@@ -70672,6 +73392,48 @@
    ]
   },
   {
+   "id": "PF298549",
+   "name": "호두까기 인형 [충주]",
+   "from": "2026-12-25",
+   "to": "2026-12-25",
+   "venue": "충주시문화회관 (충주시문화회관)",
+   "area": "충청북도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "host": "(주)더화랑이엔티, 극단 복주머니",
+   "times": "금요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298549_260814_133941.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 40,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 40000
+     }
+    ],
+    "min": 40000,
+    "max": 40000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/64853"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1715019"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011658"
+    }
+   ]
+  },
+  {
    "id": "PF298258",
    "name": "정글북 [인천]",
    "from": "2026-12-25",
@@ -70790,6 +73552,48 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015480"
+    }
+   ]
+  },
+  {
+   "id": "PF287853",
+   "name": "겨울왕국: 겨울이야기 [고양]",
+   "from": "2026-12-25",
+   "to": "2026-12-26",
+   "venue": "고양어울림누리 (별모래극장)",
+   "area": "경기도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간",
+   "age": "24개월 이상",
+   "host": "극단 국민, 극단 해미소",
+   "times": "HOL(11:00,14:00,16:00), 토요일(11:00,14:00,16:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF287853_260324_095936.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 50,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 50000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/62305"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1619738"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26004456"
     }
    ]
   },
@@ -71078,6 +73882,44 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011384"
+    }
+   ]
+  },
+  {
+   "id": "PF305242",
+   "name": "FTISLAND CONCERT: FTSODE",
+   "from": "2026-12-26",
+   "to": "2026-12-27",
+   "venue": "명화라이브홀 (명화라이브홀)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)컬쳐팩토리",
+   "times": "토요일(18:00), 일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305242_261103_125826.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 143,000원, S석 132,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 143000
+     },
+     {
+      "grade": "S석",
+      "price": 132000
+     }
+    ],
+    "min": 132000,
+    "max": 143000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015500"
     }
    ]
   },
@@ -72350,6 +75192,44 @@
    ]
   },
   {
+   "id": "PF305196",
+   "name": "서울브라스사운드 크리스마스 콘서트",
+   "from": "2026-12-26",
+   "to": "2026-12-26",
+   "venue": "세종문화회관 (세종체임버홀)",
+   "area": "서울특별시",
+   "genre": "서양음악(클래식)",
+   "cast": "최문규, 김동민, 이호권, 정종수, 박제연, 정태민, 김현수",
+   "runtime": "1시간 10분",
+   "age": "만 5세 이상",
+   "host": "이든예술기획(주)",
+   "times": "토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305196_261103_102638.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 50,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 50000
+     }
+    ],
+    "min": 50000,
+    "max": 50000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004895"
+    },
+    {
+     "name": "세종문화회관",
+     "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37813&menuNo=200320"
+    }
+   ]
+  },
+  {
    "id": "PF305123",
    "name": "재패니메이션 OST 콘서트",
    "from": "2026-12-26",
@@ -72788,60 +75668,6 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60892"
-    }
-   ]
-  },
-  {
-   "id": "PF304722",
-   "name": "백지영 전국투어 콘서트: 백일몽 [서울]",
-   "from": "2026-12-27",
-   "to": "2026-12-27",
-   "venue": "코엑스 (D홀)",
-   "area": "서울특별시",
-   "genre": "대중음악",
-   "cast": "백지영",
-   "runtime": "2시간",
-   "age": "만 7세 이상",
-   "host": "(주)제이제이팩토리",
-   "times": "일요일(17:00)",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304722_261028_143941.gif",
-   "state": "공연예정",
-   "price": {
-    "raw": "VIP석 165,000원, R석 154,000원, S석 132,000원, A석 121,000원",
-    "tiers": [
-     {
-      "grade": "VIP석",
-      "price": 165000
-     },
-     {
-      "grade": "R석",
-      "price": 154000
-     },
-     {
-      "grade": "S석",
-      "price": 132000
-     },
-     {
-      "grade": "A석",
-      "price": 121000
-     }
-    ],
-    "min": 121000,
-    "max": 165000,
-    "free": false
-   },
-   "booking": [
-    {
-     "name": "NHN티켓링크",
-     "url": "https://www.ticketlink.co.kr/product/66555"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1765880"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015376"
     }
    ]
   },
@@ -73478,6 +76304,44 @@
     {
      "name": "NHN티켓링크",
      "url": "https://www.ticketlink.co.kr/product/65098"
+    }
+   ]
+  },
+  {
+   "id": "PF298833",
+   "name": "아기 돼지 삼형제 [안동]",
+   "from": "2026-12-27",
+   "to": "2026-12-27",
+   "venue": "안동시청 대동관(구. 안동시민회관) (낙동홀(소공연장))",
+   "area": "경상북도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "50분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298833_260819_131151.png",
+   "state": "공연예정",
+   "price": {
+    "raw": "현장판매 35,000원, 사전예약 9,900원",
+    "tiers": [
+     {
+      "grade": "현장판매",
+      "price": 35000
+     },
+     {
+      "grade": "사전예약",
+      "price": 9900
+     }
+    ],
+    "min": 9900,
+    "max": 35000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1716171"
     }
    ]
   },
@@ -74532,6 +77396,40 @@
    ]
   },
   {
+   "id": "PF305211",
+   "name": "김사월 연말 단독 공연: 밖은 너무 추워 나는",
+   "from": "2026-12-31",
+   "to": "2027-01-01",
+   "venue": "KT&G 상상마당 라이브홀 [마포] (KT&G 상상마당 라이브홀 [마포] )",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "김사월, 이기현, 이설아, 이시문, 전솔기, 정수영",
+   "runtime": "1시간 30분",
+   "age": "전체 관람가",
+   "host": "",
+   "times": "목요일(20:00), HOL(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305211_261103_110823.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 88,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 88000
+     }
+    ],
+    "min": 88000,
+    "max": 88000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214172"
+    }
+   ]
+  },
+  {
    "id": "PF305117",
    "name": "김나영 콘서트: Na On The Voice: 우리 - 마침내 이곳에 [전남광주]",
    "from": "2026-12-31",
@@ -75030,6 +77928,10 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015381"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60893"
     }
    ]
   },
@@ -76574,6 +79476,44 @@
    ]
   },
   {
+   "id": "PF305189",
+   "name": "NCT WISH 2nd CONCERT TOUR INTO THE WISH: Face Our WISH [서울]",
+   "from": "2027-01-15",
+   "to": "2027-01-16",
+   "venue": "고척스카이돔 (고척스카이돔)",
+   "area": "서울특별시",
+   "genre": "대중음악",
+   "cast": "",
+   "runtime": "",
+   "age": "만 6세 이상",
+   "host": "(주)에스엠엔터테인먼트 (SM ENTERTAINMENT), 드림메이커엔터테인먼트리미티드(DREAM MAKER ENTERTAINMENT LIMITED)",
+   "times": "금요일(18:00), 토요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305189_261103_100858.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "VIP석 220,000원, 일반석 165,000원",
+    "tiers": [
+     {
+      "grade": "VIP석",
+      "price": 220000
+     },
+     {
+      "grade": "일반석",
+      "price": 165000
+     }
+    ],
+    "min": 165000,
+    "max": 220000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=214071"
+    }
+   ]
+  },
+  {
    "id": "PF304529",
    "name": "살리에르 [안동]",
    "from": "2027-01-15",
@@ -76708,6 +79648,48 @@
    ]
   },
   {
+   "id": "PF305226",
+   "name": "로보카폴리: 브룸스타운의 에너지를 지켜라! [진주]",
+   "from": "2027-01-16",
+   "to": "2027-01-17",
+   "venue": "경상남도문화예술회관 (대공연장)",
+   "area": "경상남도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 5분",
+   "age": "24개월 이상",
+   "host": "(주)더화랑이엔티, (주)더화랑이엔티",
+   "times": "토요일 ~ 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305226_261103_114259.jpg",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 66,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 66000
+     }
+    ],
+    "min": 66000,
+    "max": 66000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66688"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1768722"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015770"
+    }
+   ]
+  },
+  {
    "id": "PF305102",
    "name": "공룡 어드벤처 [서울 강남]",
    "from": "2027-01-16",
@@ -76780,6 +79762,48 @@
     {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1763795"
+    }
+   ]
+  },
+  {
+   "id": "PF302762",
+   "name": "최고다 호기심딱지 시즌4: 우리 몸은 우리가 지킨다! [청주]",
+   "from": "2027-01-16",
+   "to": "2027-01-17",
+   "venue": "청주예술의전당 (대공연장)",
+   "area": "충청북도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 15분",
+   "age": "24개월 이상",
+   "host": "(주) 디멘션, (주)더화랑이엔티",
+   "times": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302762_261007_154656.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "전석 70,000원",
+    "tiers": [
+     {
+      "grade": "전석",
+      "price": 70000
+     }
+    ],
+    "min": 70000,
+    "max": 70000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66088"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1749510"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014093"
     }
    ]
   },
@@ -77270,6 +80294,10 @@
    },
    "booking": [
     {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015599"
+    },
+    {
      "name": "롯데콘서트홀",
      "url": "https://www.lotteconcerthall.com/product/performance/261273"
     }
@@ -77414,6 +80442,48 @@
     {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60411"
+    }
+   ]
+  },
+  {
+   "id": "PF305240",
+   "name": "로보카폴리: 브룸스타운의 에너지를 지켜라! [청주]",
+   "from": "2027-01-30",
+   "to": "2027-01-31",
+   "venue": "청주아트홀 (구. 청주시민회관) (청주아트홀 (구. 청주시민회관) )",
+   "area": "충청북도",
+   "genre": "뮤지컬",
+   "cast": "",
+   "runtime": "1시간 5분",
+   "age": "24개월 이상",
+   "host": "(주)더화랑이엔티, (주)더화랑이엔티",
+   "times": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305240_261103_125104.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 66,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 66000
+     }
+    ],
+    "min": 66000,
+    "max": 66000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66690"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1768765"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015753"
     }
    ]
   },
@@ -78028,6 +81098,60 @@
     {
      "name": "놀유니버스",
      "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015072"
+    }
+   ]
+  },
+  {
+   "id": "PF305272",
+   "name": "이은미 콘서트 with 오케스트라: 추억이 핀다 [부산]",
+   "from": "2027-04-18",
+   "to": "2027-04-18",
+   "venue": "부산문화회관 (대극장)",
+   "area": "부산광역시",
+   "genre": "대중음악",
+   "cast": "이은미 등",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "host": "(주)네오비즈컴퍼니, (주)하늘이엔티, (주)하늘이엔티",
+   "times": "일요일(17:00)",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305272_261103_140631.gif",
+   "state": "공연예정",
+   "price": {
+    "raw": "R석 143,000원, S석 132,000원, A석 110,000원, B석 99,000원",
+    "tiers": [
+     {
+      "grade": "R석",
+      "price": 143000
+     },
+     {
+      "grade": "S석",
+      "price": 132000
+     },
+     {
+      "grade": "A석",
+      "price": 110000
+     },
+     {
+      "grade": "B석",
+      "price": 99000
+     }
+    ],
+    "min": 99000,
+    "max": 143000,
+    "free": false
+   },
+   "booking": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66699"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1769934"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015727"
     }
    ]
   }
